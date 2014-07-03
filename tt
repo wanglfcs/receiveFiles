@@ -1,0 +1,59 @@
+
+
+char *tftp_put(IPAddr server,char *file,Octet *data,Uint32 dataLen)
+{
+	UDP *sendBuf=(UDP *)enet_alloc();
+	UDPPort local=udp_allocPort(NULL);
+	sendBuf->ip.dest=hton(server);
+	sendBuf->udp.dest=htons(tftpPort);
+	sendBuf->udp.srce=htons(local);
+	printf("hello\n");
+	TFTPHeader *sendHeader=(TFTPHeader *)&(sendBuf->data[0]);
+	sendHeader->op=htons(tftpOpWRQ);
+	Uint32 pos=tftpPosName;
+	Uint32 dataStart;
+	appendStr(sendBuf,&pos,file);
+	appendStr(sendBuf,&pos,"octet");
+	dataStart=pos;
+	Uint32 blockNum;
+	Uint32 sendLength;
+	printf("begin send file\n");
+	while(1)
+	{
+		Uint32 recvLen;
+		IP *recvBuf;
+		TFTPHeader *recvHeader;
+		int tries;
+		for(tries=0;;tries++)
+		{
+			if(tries>=retryLimit)
+			{
+				udp_freePort(local);
+				enet_free((Enet *)sendBuf);
+				return "Timeout";
+			}
+			udp_send(sendBuf,pos);
+			recvLen=udp_recv(&recvBuf,local,timeout);
+			if(recvLen)
+			{
+				recvHeader=(TFTPHeader *)udp_payload(recvBuf);
+				if(ntohs(recvHeader->op)==tftpOpAck)
+					break;
+			}
+		}
+		//send block recvheader->block+1
+		blockNum=recvHeader->block+1;
+		sendHeader->op=htons(tftpOpData);
+		sendHeader->block=htons(blockNum);
+		sendLength=dataLen-512*(blockNum-1)>512?512:dataLen%512;
+		appendData(sendBuf,dataStart,data+(blockNum-1)*512,sendLength);
+		udp_recvDone(recvBuf);
+		//pos=dataStart+sendLength;
+		//if(sendLength<512)
+			//break;
+
+	}
+	udp_freePort(local);
+	enet_free((Enet *)sendBuf);
+	return NULL;
+}

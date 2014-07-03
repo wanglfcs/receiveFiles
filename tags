@@ -1,0 +1,795 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APIARY	Makefile	/^APIARY=..$/;"	m
+APIARY	rules.mk	/^APIARY=\/opt\/apiary$/;"	m
+ARPCacheEntry	shared/network.c	/^typedef struct ARPCacheEntry {$/;"	s	file:
+ARPCacheEntry	shared/network.c	/^} ARPCacheEntry;$/;"	t	typeref:struct:ARPCacheEntry	file:
+ARPPacket	shared/network.c	/^typedef struct ARPPacket {$/;"	s	file:
+ARPPacket	shared/network.c	/^} ARPPacket;$/;"	t	typeref:struct:ARPPacket	file:
+BAR	rules.mk	/^BAR = Bar r$/;"	m
+BAS	rules.mk	/^BAS = Bas -datarota=2 -I$(INCLUDE)$/;"	m
+BASE	rules.mk	/^BASE = $(APIARY)\/lib\/base.o$/;"	m
+BCC	rules.mk	/^BCC = Bgcc1 -quiet -std=c99 -fno-builtin -msavertn -O2 \\$/;"	m
+BDATA	rules.mk	/^BDATA = Bfiledata$/;"	m
+BIMG	rules.mk	/^BIMG = Bimg$/;"	m
+BLD	rules.mk	/^BLD = Bld -codebase=1000 -datafloat $(BASE)$/;"	m
+BSIM	rules.mk	/^BSIM = Bsim$/;"	m
+BmpHeader	shared/display.c	/^} BmpHeader;$/;"	t	typeref:struct:__anon2	file:
+BmpHeaderSize	shared/display.c	189;"	d	file:
+BmpMagic	shared/display.c	/^} BmpMagic;$/;"	t	typeref:struct:__anon1	file:
+CACHELINE	shared/intercore.h	156;"	d
+CACHELINE	shared/mcLibc.c	/^int **responseAreas CACHELINE;$/;"	v
+CARGS	rules.mk	/^CARGS =$/;"	m
+COPY	rules.mk	/^COPY = copy$/;"	m
+Condition	shared/threads.c	/^struct Condition {$/;"	s	file:
+Condition	shared/threads.h	/^typedef struct Condition * Condition;$/;"	t	typeref:struct:Condition
+Cycles	shared/threads.c	/^typedef long long int Cycles;$/;"	t	file:
+DEVICE_COUNTERS	shared/counters.h	14;"	d
+DEVICE_MONITORS	shared/cache_monitor.h	14;"	d
+DEVICE_MONITORS	shared/monitor.h	14;"	d
+DEVICE_TIMERINTRERUPT	shared/timerInterrupt.h	14;"	d
+DHCPHeader	shared/network.c	/^typedef struct DHCPHeader {$/;"	s	file:
+DHCPHeader	shared/network.c	/^} DHCPHeader;$/;"	t	typeref:struct:DHCPHeader	file:
+DISPLAYHEIGHT	shared/display.h	20;"	d
+DISPLAYWIDTH	shared/display.h	19;"	d
+DNSAddrs	shared/network.c	/^typedef IPAddr DNSAddrs[maxServers];$/;"	t	file:
+DNSHeader	shared/network.c	/^typedef struct DNSHeader {$/;"	s	file:
+DNSHeader	shared/network.c	/^} DNSHeader;$/;"	t	typeref:struct:DNSHeader	file:
+DirectoryOfThisScript	.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	f
+Enet	shared/network.h	/^typedef struct Enet {         \/\/ Ethernet packet payload, without header$/;"	s
+Enet	shared/network.h	/^} Enet;$/;"	t	typeref:struct:Enet
+EnetPending	shared/enet.c	/^typedef struct EnetPending { \/\/ incoming packet delayed pending transmit ack$/;"	s	file:
+EnetPending	shared/enet.c	/^} *EnetPending;$/;"	t	typeref:struct:EnetPending	file:
+EnetReceiver	shared/network.h	/^typedef void (* EnetReceiver)(MAC srce, Uint16 type, Enet *buf, Uint32 len,$/;"	t
+FRAMESIZE	shared/display.h	21;"	d
+FlagsForFile	.ycm_extra_conf.py	/^def FlagsForFile( filename, **kwargs ):$/;"	f
+GIFTOTALSYMBOLS	shared/display.c	288;"	d	file:
+GetCompilationInfoForFile	.ycm_extra_conf.py	/^def GetCompilationInfoForFile( filename ):$/;"	f
+GifGCE	shared/display.h	/^} GifGCE;$/;"	t	typeref:struct:__anon6
+GifHeader	shared/display.c	/^} GifHeader;$/;"	t	typeref:struct:__anon3	file:
+GifImage	shared/display.h	/^} GifImage;$/;"	t	typeref:struct:__anon7
+GifImageDesc	shared/display.c	/^} GifImageDesc;$/;"	t	typeref:struct:__anon4	file:
+HEADERS	rules.mk	/^HEADERS = \\$/;"	m
+HEADERS	shared/Makefile	/^HEADERS = \\$/;"	m
+ICMP	shared/network.h	/^typedef struct ICMP {          \/\/ ICMP packet for transmission (only)$/;"	s
+ICMP	shared/network.h	/^} ICMP;$/;"	t	typeref:struct:ICMP
+ICMPHeader	shared/network.h	/^typedef struct ICMPHeader {$/;"	s
+ICMPHeader	shared/network.h	/^} ICMPHeader;$/;"	t	typeref:struct:ICMPHeader
+ICMPReceiver	shared/network.h	/^typedef void (* ICMPReceiver)(IP *buf, Uint32 len);$/;"	t
+INCLUDE	rules.mk	/^INCLUDE = $(APIARY)\/include$/;"	m
+IP	shared/network.h	/^typedef struct IP {           \/\/ complete IP packet$/;"	s
+IP	shared/network.h	/^} IP;$/;"	t	typeref:struct:IP
+IPAddr	shared/network.h	/^typedef Uint32 IPAddr;        \/\/ IP address, in hardware order$/;"	t
+IPHeader	shared/network.h	/^typedef struct IPHeader {     \/\/ static part of IP header$/;"	s
+IPHeader	shared/network.h	/^} IPHeader;$/;"	t	typeref:struct:IPHeader
+IPReceiver	shared/network.h	/^typedef void (* IPReceiver)(IP *buf, Uint32 len, int broadcast);$/;"	t
+Image	shared/display.h	/^} Image;$/;"	t	typeref:struct:__anon5
+IntercoreMessage	shared/intercore.h	/^typedef unsigned int IntercoreMessage[63];$/;"	t
+IsHeaderFile	.ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	f
+LIBMC	rules.mk	/^LIBMC = shared\/libmc.a$/;"	m
+LIBS	rules.mk	/^LIBS = -Lshared -lmc -L$(APIARY)\/lib -lc -lgcc$/;"	m
+Listener	shared/tcp.c	/^typedef struct Listener {$/;"	s	file:
+Listener	shared/tcp.c	/^} * Listener;$/;"	t	typeref:struct:Listener	file:
+MAC	shared/network.h	/^typedef struct MAC {          \/\/ Ethernet MAC address, in network byte order$/;"	s
+MAC	shared/network.h	/^} MAC;$/;"	t	typeref:struct:MAC
+MQMessage	shared/network.h	/^typedef unsigned int MQMessage[63];$/;"	t
+MQReceiver	shared/network.h	/^typedef void (* MQReceiver)(unsigned int srce, unsigned int type,$/;"	t
+MSSOption	shared/tcp.c	/^typedef struct MSSOption {$/;"	s	file:
+MSSOption	shared/tcp.c	/^} MSSOption;$/;"	t	typeref:struct:MSSOption	file:
+MakeRelativePathsInFlagsAbsolute	.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	f
+Microsecs	shared/threads.h	/^typedef long long int Microsecs;$/;"	t
+Mutex	shared/threads.c	/^struct Mutex {$/;"	s	file:
+Mutex	shared/threads.h	/^typedef struct Mutex * Mutex;$/;"	t	typeref:struct:Mutex
+OBJS	shared/Makefile	/^OBJS = \\$/;"	m
+Octet	shared/network.h	/^typedef unsigned char Octet;$/;"	t
+OneGifImage	shared/display.h	/^typedef struct OneGifImage { \/\/ One image within a GIF file$/;"	s
+OneGifImage	shared/display.h	/^} OneGifImage;$/;"	t	typeref:struct:OneGifImage
+Pixel	shared/display.h	/^typedef unsigned int Pixel;$/;"	t
+Queue	shared/threads.h	/^typedef struct Queue {$/;"	s
+Queue	shared/threads.h	/^} * Queue;$/;"	t	typeref:struct:Queue
+RM	rules.mk	/^RM = rm$/;"	m
+SOURCE_EXTENSIONS	.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]$/;"	v
+SaveArea	shared/intercore.h	/^typedef struct SaveArea {$/;"	s
+SaveArea	shared/intercore.h	/^} SaveArea;$/;"	t	typeref:struct:SaveArea
+Semaphore	shared/threads.c	/^struct Semaphore {$/;"	s	file:
+Semaphore	shared/threads.h	/^typedef struct Semaphore * Semaphore;$/;"	t	typeref:struct:Semaphore
+TCP	shared/network.h	/^typedef struct TCP * TCP;    \/\/ TCP connection handle$/;"	t	typeref:struct:TCP
+TCP	shared/tcp.c	/^struct TCP {              \/\/ Connection state block$/;"	s	file:
+TCPHeader	shared/tcp.c	/^typedef struct TCPHeader {$/;"	s	file:
+TCPHeader	shared/tcp.c	/^} TCPHeader;$/;"	t	typeref:struct:TCPHeader	file:
+TCPPort	shared/network.h	/^typedef Uint16 TCPPort;      \/\/ TCP port number, in hardware order$/;"	t
+TFTPHeader	main.c	/^typedef struct TFTPHeader {$/;"	s	file:
+TFTPHeader	main.c	/^} TFTPHeader;$/;"	t	typeref:struct:TFTPHeader	file:
+TFTPHeader	shared/tftp.c	/^typedef struct TFTPHeader {$/;"	s	file:
+TFTPHeader	shared/tftp.c	/^} TFTPHeader;$/;"	t	typeref:struct:TFTPHeader	file:
+TOUCH	rules.mk	/^TOUCH = touch$/;"	m
+Thread	shared/threads.c	/^struct Thread {$/;"	s	file:
+Thread	shared/threads.h	/^typedef struct Thread * Thread;$/;"	t	typeref:struct:Thread
+TransmitElem	shared/tcp.c	/^typedef struct TransmitElem { \/\/ (re)transmission queue element$/;"	s	file:
+TransmitElem	shared/tcp.c	/^} TransmitElem;$/;"	t	typeref:struct:TransmitElem	file:
+UDP	shared/network.h	/^typedef struct UDP {          \/\/ UDP packet for transmission (only)$/;"	s
+UDP	shared/network.h	/^} UDP;$/;"	t	typeref:struct:UDP
+UDPElem	shared/network.c	/^typedef struct UDPElem {$/;"	s	file:
+UDPElem	shared/network.c	/^} *UDPElem;$/;"	t	typeref:struct:UDPElem	file:
+UDPHeader	shared/network.h	/^typedef struct UDPHeader {    \/\/ UDP header$/;"	s
+UDPHeader	shared/network.h	/^} UDPHeader;$/;"	t	typeref:struct:UDPHeader
+UDPPort	shared/network.h	/^typedef Uint16 UDPPort;       \/\/ UDP port, in hardware order$/;"	t
+UDPReceiver	shared/network.h	/^typedef void (* UDPReceiver)(IP *buf, int len, int broadcast,$/;"	t
+Uint16	shared/network.h	/^typedef unsigned short Uint16;$/;"	t
+Uint32	shared/network.h	/^typedef unsigned int Uint32;$/;"	t
+_COUNTERS_H	shared/counters.h	10;"	d
+_DISPLAY_H	shared/display.h	10;"	d
+_INTERCORE_H	shared/intercore.h	10;"	d
+_MONITORS_H	shared/cache_monitor.h	10;"	d
+_MONITORS_H	shared/monitor.h	10;"	d
+_NETWORK_H	shared/network.h	51;"	d
+_THREADS_H	shared/threads.h	12;"	d
+_TIMERINTERRUPT_H	shared/timerInterrupt.h	10;"	d
+_appendData	main.s	/^_appendData:$/;"	l
+_appendStr	main.s	/^_appendStr:$/;"	l
+_callBackFunc	main.s	/^_callBackFunc:$/;"	l
+_main	main.s	/^_main:$/;"	l
+_sendData	main.s	/^_sendData:$/;"	l
+_tftp_put	main.s	/^_tftp_put:$/;"	l
+a	shared/display.c	/^  Octet a;$/;"	m	struct:__anon1	file:
+abortInner	shared/tcp.c	/^static void abortInner(TCP tcp) {$/;"	f	file:
+ack	shared/tcp.c	/^  Uint32 ack;$/;"	m	struct:TCPHeader	file:
+addr	shared/network.c	/^  IPAddr addr;$/;"	m	struct:ARPCacheEntry	file:
+address	client.py	/^address=('192.168.50.245',31500)$/;"	v
+address	server.py	/^address=('192.168.50.245',31500)$/;"	v
+alphaComposePixels	shared/display.c	/^Pixel alphaComposePixels(Pixel below, Pixel above) {$/;"	f
+anCount	shared/network.c	/^  short anCount;$/;"	m	struct:DNSHeader	file:
+appendData	main.c	/^void appendData(UDP *sendBuf,Uint32 start,Octet *data,Uint32 dataLen)$/;"	f
+appendData	shared/tftp.c	/^void appendData(UDP *sendBuf,Uint32 start,Octet *data,Uint32 dataLen)$/;"	f
+appendStr	main.c	/^void appendStr(UDP *sendBuf, Uint32 *pos, char * str) {$/;"	f
+appendStr	shared/tftp.c	/^void appendStr(UDP *sendBuf, Uint32 *pos, char * str) {$/;"	f
+appendTransmitElem	shared/tcp.c	/^static void appendTransmitElem(TCP tcp) {$/;"	f	file:
+arCount	shared/network.c	/^  short arCount;$/;"	m	struct:DNSHeader	file:
+arpCache	shared/network.c	/^static ARPCacheEntry *arpCache;$/;"	v	file:
+arpCacheSize	shared/network.c	42;"	d	file:
+arpCond	shared/network.c	/^static Condition arpCond;$/;"	v	file:
+arpInit	shared/network.c	/^static void arpInit() {$/;"	f	file:
+arpMutex	shared/network.c	/^static Mutex arpMutex;$/;"	v	file:
+arpOpcodeReply	shared/network.c	27;"	d	file:
+arpOpcodeRequest	shared/network.c	26;"	d	file:
+arpReceiver	shared/network.c	/^void arpReceiver(MAC srce, Uint16 type, Enet *buf, Uint32 len,$/;"	f
+arpSend	shared/network.c	/^static void arpSend(int op, MAC targetMAC, IPAddr targetIP) {$/;"	f	file:
+arpTypeEnet	shared/network.c	28;"	d	file:
+arp_getMAC	shared/network.c	/^int arp_getMAC(IPAddr addr, MAC *res) {$/;"	f
+arp_insert	shared/network.c	/^void arp_insert(IPAddr addr, MAC mac) {$/;"	f
+arp_remove	shared/network.c	/^void arp_remove(IPAddr addr) {$/;"	f
+assert	shared/threads.c	15;"	d	file:
+b	shared/display.c	/^  Octet b;$/;"	m	struct:__anon1	file:
+backlog	shared/tcp.c	/^  int backlog;            \/\/ limit on length of pending$/;"	m	struct:Listener	file:
+bkgd	shared/display.h	/^  Pixel bkgd;               \/\/ canvas background color$/;"	m	struct:__anon7
+bkgdIndex	shared/display.c	/^  Octet bkgdIndex; \/\/ background color for non-painted canvas$/;"	m	struct:__anon3	file:
+block	main.c	/^	short block; \/\/ omitted for op=RRQ,WRQ; error number for op=Error$/;"	m	struct:TFTPHeader	file:
+block	shared/tftp.c	/^  short block; \/\/ omitted for op=RRQ,WRQ; error number for op=Error$/;"	m	struct:TFTPHeader	file:
+bootpcPort	shared/network.c	806;"	d	file:
+bootpsPort	shared/network.c	805;"	d	file:
+bpp	shared/display.c	/^  Uint16 bpp;     \/\/ bits per pixel$/;"	m	struct:__anon2	file:
+broadcast	shared/enet.c	/^  int broadcast;$/;"	m	struct:EnetPending	file:
+broadcastMAC	shared/enet.c	/^MAC broadcastMAC() {$/;"	f
+buf	shared/enet.c	/^  Enet *buf;$/;"	m	struct:EnetPending	file:
+buf	shared/network.c	/^  IP *buf;$/;"	m	struct:UDPElem	file:
+buf	shared/tcp.c	/^  IP *buf;$/;"	m	struct:TransmitElem	file:
+bytes	shared/network.h	/^  Octet bytes[6];$/;"	m	struct:MAC
+cacheAlign	shared/intercore.h	/^static void * cacheAlign(void *unaligned) {$/;"	f
+cacheControl	shared/intercore.h	/^static volatile unsigned int* cacheControl = (unsigned int *)0x0000000e;$/;"	v
+cacheLineAddress	shared/intercore.h	/^static unsigned int cacheLineAddress(void *addr) {$/;"	f
+cacheMultiple	shared/intercore.h	/^static unsigned int cacheMultiple(unsigned int len) {$/;"	f
+cache_flushMem	shared/intercore.h	/^static void cache_flushMem(void *addr, unsigned int len) {$/;"	f
+cache_invalidateMem	shared/intercore.h	/^static void cache_invalidateMem(void *addr, unsigned int len) {$/;"	f
+callBackFunc	main.c	/^void callBackFunc(Octet *buf,Uint32 len)$/;"	f
+checkTimeout	shared/threads.c	/^static void checkTimeout() {$/;"	f	file:
+checksum	shared/network.h	/^  Uint16 checksum;            \/\/ IP header checksum, FWIW$/;"	m	struct:IPHeader
+checksum	shared/network.h	/^  Uint16 checksum;            \/\/ UDP checksum$/;"	m	struct:UDPHeader
+checksum	shared/network.h	/^  Uint16 checksum;$/;"	m	struct:ICMPHeader
+checksum	shared/tcp.c	/^  Uint16 checksum;$/;"	m	struct:TCPHeader	file:
+clean_monitors	shared/cache_monitor.h	/^static void clean_monitors(unsigned int cnt) {$/;"	f
+clean_monitors	shared/monitor.h	/^static void clean_monitors(unsigned int cnt) {$/;"	f
+clearResponse	shared/mcLibc.c	/^static void clearResponse() {$/;"	f	file:
+clientIP	shared/network.c	/^  Uint32 clientIP;$/;"	m	struct:DHCPHeader	file:
+clockFrequency	shared/intercore.h	/^static unsigned int clockFrequency() {$/;"	f
+clockFrequency	shared/threads.c	/^static unsigned int clockFrequency() {$/;"	f	file:
+code	shared/network.h	/^  Octet code;$/;"	m	struct:ICMPHeader
+codebase	Makefile	/^	Bld -o aabb.out -codebase=1000 -datafloat ${APIARY}\/lib\/base.o main.o -L${APIARY}\/lib -lmc -lc -lgcc$/;"	m
+colors	shared/display.h	/^  Pixel *colors;            \/\/ global color table, or NULL$/;"	m	struct:__anon7
+colors	shared/display.h	/^  Pixel *colors;            \/\/ local color table, or NULL$/;"	m	struct:OneGifImage
+compilation_database_folder	.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	v
+condition_broadcast	shared/threads.c	/^void condition_broadcast(Condition c) {$/;"	f
+condition_create	shared/threads.c	/^Condition condition_create() {$/;"	f
+condition_signal	shared/threads.c	/^void condition_signal(Condition c) {$/;"	f
+condition_timedWait	shared/threads.c	/^int condition_timedWait(Condition c, Mutex m, Microsecs microsecs) {$/;"	f
+condition_wait	shared/threads.h	/^static void condition_wait(Condition c, Mutex m) {$/;"	f
+configInit	shared/network.c	/^static void configInit() {$/;"	f	file:
+corenum	shared/intercore.h	/^static unsigned int corenum () {$/;"	f
+count	shared/threads.c	/^  int count;$/;"	m	struct:Semaphore	file:
+counters_readAndZero	shared/counters.h	/^static unsigned int counters_readAndZero(int n) {$/;"	f
+counters_start	shared/counters.h	/^static void counters_start() {$/;"	f
+counters_stop	shared/counters.h	/^static void counters_stop() {$/;"	f
+createFrame	shared/display.c	/^Image *createFrame() {$/;"	f
+createImage	shared/display.c	/^Image *createImage(int w, int h) {$/;"	f
+createPixel	shared/display.h	/^static Pixel createPixel(Octet r, Octet g, Octet b, Octet transparency) {$/;"	f
+createTcp	shared/tcp.c	/^static TCP createTcp(TCPPort localPort, IPAddr remoteAddr,$/;"	f	file:
+cycleCounter	shared/intercore.h	/^static volatile unsigned int* cycleCounter = (unsigned int *)0x00000022;$/;"	v
+cycles	shared/threads.c	/^static volatile unsigned int *cycles = (unsigned int *)0x22;$/;"	v	file:
+dSize	shared/display.c	/^  Uint32 dSize;   \/\/ size of the pixel data$/;"	m	struct:__anon2	file:
+data	shared/network.h	/^  Octet data[enetPayloadSize];$/;"	m	struct:Enet
+data	shared/network.h	/^  Octet data[icmpPayloadSize]; \/\/ enough for maximum IP header plus 8 bytes$/;"	m	struct:ICMP
+data	shared/network.h	/^  Octet data[ipPayloadSize];  \/\/ IP options and payload$/;"	m	struct:IP
+data	shared/network.h	/^  Octet data[udpPayloadSize];$/;"	m	struct:UDP
+dataOffset	shared/display.c	/^  Uint32 dataOffset;$/;"	m	struct:__anon2	file:
+database	.ycm_extra_conf.py	/^  database = None$/;"	v
+database	.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	v
+datarota	Makefile	/^	Bas -x -datarota=2 -lst main.lst main.s$/;"	m
+dead	shared/threads.c	/^static struct Queue dead;     \/\/ Threads that have terminated, for re-use$/;"	v	typeref:struct:Queue	file:
+delayLS	shared/display.h	/^  Octet delayLS;$/;"	m	struct:__anon6
+delayMS	shared/display.h	/^  Octet delayMS;$/;"	m	struct:__anon6
+deleteTcp	shared/tcp.c	/^static void deleteTcp(TCP tcp) {$/;"	f	file:
+dequeue	shared/threads.c	/^static Thread dequeue(Queue q) {$/;"	f	file:
+dequeueOne	shared/threads.c	/^static void dequeueOne(Thread t) {$/;"	f	file:
+dest	shared/network.c	/^  UDPPort dest;$/;"	m	struct:UDPElem	file:
+dest	shared/network.h	/^  Uint16 dest;$/;"	m	struct:UDPHeader
+dest	shared/network.h	/^  Uint32 dest;$/;"	m	struct:IPHeader
+dest	shared/tcp.c	/^  Uint16 dest;$/;"	m	struct:TCPHeader	file:
+detached	shared/threads.c	/^  int detached;            \/\/ true iff nobody will ever join this thread$/;"	m	struct:Thread	file:
+dhcpTypeAck	shared/network.c	812;"	d	file:
+dhcpTypeDecline	shared/network.c	811;"	d	file:
+dhcpTypeDiscover	shared/network.c	808;"	d	file:
+dhcpTypeNak	shared/network.c	813;"	d	file:
+dhcpTypeOffer	shared/network.c	809;"	d	file:
+dhcpTypeRelease	shared/network.c	814;"	d	file:
+dhcpTypeRequest	shared/network.c	810;"	d	file:
+dnsClassIN	shared/network.c	663;"	d	file:
+dnsInit	shared/network.c	/^static void dnsInit() {$/;"	f	file:
+dnsMalformedQuery	shared/network.h	606;"	d
+dnsMalformedResponse	shared/network.h	610;"	d
+dnsMutex	shared/network.c	/^static Mutex dnsMutex = NULL;$/;"	v	file:
+dnsNameHasNoAddress	shared/network.h	609;"	d
+dnsNameNotFound	shared/network.h	607;"	d
+dnsNameTooLong	shared/network.h	603;"	d
+dnsNoServer	shared/network.h	604;"	d
+dnsPort	shared/network.c	660;"	d	file:
+dnsRetryLimit	shared/network.c	665;"	d	file:
+dnsServerRefused	shared/network.h	608;"	d
+dnsTimeLimit	shared/network.c	666;"	d	file:
+dnsTimeout	shared/network.h	605;"	d
+dnsTypeA	shared/network.c	662;"	d	file:
+dns_lookup	shared/network.c	/^int dns_lookup(char *name, IPAddr *res) {$/;"	f
+enetCore	shared/enet.c	/^static unsigned int enetCore = 999;$/;"	v	file:
+enetCorenum	shared/intercore.h	/^static unsigned int enetCorenum() {$/;"	f
+enetDeliver	shared/enet.c	/^static void enetDeliver(void * arg) {$/;"	f	file:
+enetDiscard	shared/enet.c	/^static void enetDiscard(MAC srce, Uint16 type, Enet *buf, Uint32 len,$/;"	f	file:
+enetFreeList	shared/enet.c	/^static Enet *enetFreeList = NULL;$/;"	v	file:
+enetMutex	shared/enet.c	/^static Mutex enetMutex = NULL;$/;"	v	file:
+enetPayloadSize	shared/network.h	159;"	d
+enetProtocols	shared/enet.c	/^static EnetReceiver* enetProtocols; \/\/ receivers, indexed by protocol$/;"	v	file:
+enetReceiveRequest	shared/enet.c	/^static void enetReceiveRequest() {$/;"	f	file:
+enetReceiver	shared/enet.c	/^static void enetReceiver(unsigned int srce, unsigned int type,$/;"	f	file:
+enetRecvBuf	shared/enet.c	/^static Octet *enetRecvBuf;          \/\/ cache aligned$/;"	v	file:
+enetRecvBufMargin	shared/enet.c	83;"	d	file:
+enetRecvBufReset	shared/enet.c	/^static int enetRecvBufReset = 0;    \/\/ told controller about new memory$/;"	v	file:
+enetRecvBufSize	shared/enet.c	82;"	d	file:
+enetRecvCond	shared/enet.c	/^static Condition enetRecvCond = NULL;$/;"	v	file:
+enetSeed	shared/enet.c	/^static unsigned int enetSeed;       \/\/ current seed for enet_random$/;"	v	file:
+enetSendBuf	shared/enet.c	/^static Octet *enetSendBuf;$/;"	v	file:
+enetSendBufSize	shared/enet.c	75;"	d	file:
+enetSendCond	shared/enet.c	/^static Condition enetSendCond = NULL;$/;"	v	file:
+enetSendPos	shared/enet.c	/^static unsigned int enetSendPos;    \/\/ next free position in enetSendBuf$/;"	v	file:
+enetTypeARP	shared/network.h	153;"	d
+enetTypeIP	shared/network.h	152;"	d
+enet_alloc	shared/enet.c	/^Enet *enet_alloc() {$/;"	f
+enet_free	shared/enet.c	/^void enet_free(Enet *buf) {$/;"	f
+enet_init	shared/enet.c	/^void enet_init() {$/;"	f
+enet_localMAC	shared/enet.c	/^MAC enet_localMAC() {$/;"	f
+enet_random	shared/enet.c	/^unsigned int enet_random() {$/;"	f
+enet_register	shared/enet.c	/^void enet_register(Uint16 protocol, EnetReceiver receiver) {$/;"	f
+enet_send	shared/enet.c	/^void enet_send(MAC dest, Uint16 type, Enet *buf, Uint32 len) {$/;"	f
+enqueue	shared/threads.c	/^static inline void enqueue(Queue q, Thread t) {$/;"	f	file:
+fSize	shared/display.c	/^  Uint32 fSize;$/;"	m	struct:__anon2	file:
+failed	shared/tcp.c	/^  int failed;             \/\/ set iff closed by timeout, RESET, or tcp_abort$/;"	m	struct:TCP	file:
+file	shared/network.c	/^  Octet file[128];$/;"	m	struct:DHCPHeader	file:
+fillRect	shared/display.c	/^void fillRect(Image *dest, Pixel pixel, int x, int y, int w, int h) {$/;"	f
+findTcp	shared/tcp.c	/^static TCP findTcp(TCPPort localPort, IPAddr remoteAddr,$/;"	f	file:
+first	shared/display.h	/^  OneGifImage *first;       \/\/ first image, or NULL$/;"	m	struct:__anon7
+firstSentAt	shared/tcp.c	/^  Microsecs firstSentAt;  \/\/ time at which buf was first transmitted$/;"	m	struct:TransmitElem	file:
+flag	shared/tcp.c	/^  Uint16 flag;            \/\/ extra flag for transmission (PUSH or FIN)$/;"	m	struct:TransmitElem	file:
+flagAck	shared/tcp.c	37;"	d	file:
+flagFin	shared/tcp.c	33;"	d	file:
+flagPush	shared/tcp.c	36;"	d	file:
+flagReset	shared/tcp.c	35;"	d	file:
+flagSyn	shared/tcp.c	34;"	d	file:
+flagUrgent	shared/tcp.c	38;"	d	file:
+flags	.ycm_extra_conf.py	/^flags = [$/;"	v
+flags	shared/network.c	/^  Uint16 flags;$/;"	m	struct:DHCPHeader	file:
+flushImage	shared/display.c	/^void flushImage(Image *image) {$/;"	f
+forkArg	shared/threads.c	/^  void * forkArg;          \/\/ argument to be passed to forkee$/;"	m	struct:Thread	file:
+forkCount	shared/threads.c	/^static int forkCount = 0;     \/\/ UID generator for forked threads$/;"	v	file:
+forkee	shared/mcMain.c	/^static void forkee(void *arg) {$/;"	f	file:
+forkee	shared/threads.c	/^  void (* forkee)(void *); \/\/ target of "fork" call$/;"	m	struct:Thread	file:
+fp	main.s	/^fp = $23     \/\/ callee save, frame pointer$/;"	d
+fp	shared/intercore.h	/^  unsigned int fp;$/;"	m	struct:SaveArea
+frag	shared/network.h	/^  Uint16 frag;                \/\/ fragmentation details; use 0 normally$/;"	m	struct:IPHeader
+free	shared/mcLibc.c	/^void free(void *ptr) {$/;"	f
+freeImage	shared/display.c	/^void freeImage(Image *image) {$/;"	f
+fromMAC	shared/enet.c	/^  MAC fromMAC;$/;"	m	struct:EnetPending	file:
+gce	shared/display.h	/^  GifGCE gce;               \/\/ the image's GCE if any, defaulted to 0$/;"	m	struct:OneGifImage
+getResponse	shared/mcLibc.c	/^static int getResponse() {$/;"	f	file:
+getSaveArea	shared/intercore.h	/^static SaveArea *getSaveArea(int n) {$/;"	f
+h	shared/display.h	/^  Uint32 h;$/;"	m	struct:__anon5
+h	shared/display.h	/^  int h;$/;"	m	struct:OneGifImage
+h	shared/display.h	/^  int h;$/;"	m	struct:__anon7
+hLS	shared/display.c	/^  Octet hLS;       \/\/ canvas height$/;"	m	struct:__anon3	file:
+hLS	shared/display.c	/^  Octet hLS;$/;"	m	struct:__anon4	file:
+hMS	shared/display.c	/^  Octet hMS;$/;"	m	struct:__anon3	file:
+hMS	shared/display.c	/^  Octet hMS;$/;"	m	struct:__anon4	file:
+hRes	shared/display.c	/^  Uint32 hRes;    \/\/ horizontal resolution, pixels per meter (!)$/;"	m	struct:__anon2	file:
+hSize	shared/display.c	/^  Uint32 hSize;   \/\/ header byte count, 40 in this case$/;"	m	struct:__anon2	file:
+hardwareAddr	shared/network.c	/^  Octet hardwareAddr[16];$/;"	m	struct:DHCPHeader	file:
+hardwareAddrLength	shared/network.c	/^  Octet hardwareAddrLength;$/;"	m	struct:DHCPHeader	file:
+hardwareSize	shared/network.c	/^  Octet hardwareSize;$/;"	m	struct:ARPPacket	file:
+hardwareType	shared/network.c	/^  Octet hardwareType;$/;"	m	struct:DHCPHeader	file:
+hardwareType	shared/network.c	/^  Uint16 hardwareType;$/;"	m	struct:ARPPacket	file:
+head	shared/threads.h	/^  Thread head;$/;"	m	struct:Queue
+height	shared/display.c	/^  Uint32 height;  \/\/ pixels$/;"	m	struct:__anon2	file:
+hops	shared/network.c	/^  Octet hops;$/;"	m	struct:DHCPHeader	file:
+hton	shared/network.h	/^static Uint32 hton(Uint32 n) {$/;"	f
+htonCopy	shared/network.h	/^static void htonCopy(Uint32 n, Octet * dest) {$/;"	f
+htons	shared/network.h	/^static Uint16 htons(Uint16 n) {$/;"	f
+htonsCopy	shared/network.h	/^static void htonsCopy(Uint16 n, Octet * dest) {$/;"	f
+icSema_P	shared/intercore.h	/^static void icSema_P(int n) {$/;"	f
+icSema_tryP	shared/intercore.h	/^static int icSema_tryP(int n) {$/;"	f
+icSleep	shared/intercore.h	/^static int icSleep(unsigned int n) {$/;"	f
+icmp	shared/network.h	/^  ICMPHeader icmp;$/;"	m	struct:ICMP
+icmpChecksum	shared/network.c	/^static Uint16 icmpChecksum(IP *buf, Uint32 len) {$/;"	f	file:
+icmpCodePortUnreachable	shared/network.h	326;"	d
+icmpCodeProtocolUnreachable	shared/network.h	325;"	d
+icmpDiscard	shared/network.c	/^static void icmpDiscard(IP *buf, Uint32 len) {$/;"	f	file:
+icmpEcho	shared/network.c	/^static void icmpEcho(IP *buf, Uint32 len) {$/;"	f	file:
+icmpInit	shared/network.c	/^static void icmpInit() {$/;"	f	file:
+icmpMutex	shared/network.c	/^static Mutex icmpMutex = NULL;$/;"	v	file:
+icmpPayloadSize	shared/network.h	328;"	d
+icmpReceiver	shared/network.c	/^static void icmpReceiver(IP *buf, Uint32 len, int broadcast) {$/;"	f	file:
+icmpTransportProblem	shared/network.c	/^static void icmpTransportProblem(IP *buf, Uint32 len) {$/;"	f	file:
+icmpTypeDestinationUnreachable	shared/network.h	314;"	d
+icmpTypeEchoReply	shared/network.h	313;"	d
+icmpTypeEchoRequest	shared/network.h	317;"	d
+icmpTypeInformationReply	shared/network.h	323;"	d
+icmpTypeInformationRequest	shared/network.h	322;"	d
+icmpTypeParameterProblem	shared/network.h	319;"	d
+icmpTypeRedirect	shared/network.h	316;"	d
+icmpTypeSourceQuench	shared/network.h	315;"	d
+icmpTypeTimeExceeded	shared/network.h	318;"	d
+icmpTypeTimestamp	shared/network.h	320;"	d
+icmpTypeTimestampReply	shared/network.h	321;"	d
+icmpTypes	shared/network.c	/^static ICMPReceiver *icmpTypes; \/\/ receivers, indexed by ICMP type$/;"	v	file:
+icmp_bounce	shared/network.c	/^void icmp_bounce(IP *buf, int broadcast, Octet type, Octet code) {$/;"	f
+icmp_getReceiver	shared/network.c	/^static ICMPReceiver icmp_getReceiver(Octet type) {$/;"	f	file:
+icmp_register	shared/network.c	/^void icmp_register(Octet type, ICMPReceiver receiver) {$/;"	f
+icmp_send	shared/network.c	/^void icmp_send(ICMP *buf, Uint32 len) {$/;"	f
+id	shared/network.c	/^  short id;$/;"	m	struct:DNSHeader	file:
+id	shared/network.h	/^  Uint16 id;                  \/\/ frag\/defrag identifier$/;"	m	struct:IPHeader
+id	shared/threads.c	/^  int id;                  \/\/ unique ID assigned by "fork"$/;"	m	struct:Thread	file:
+imgBytes	shared/display.h	/^  Octet *imgBytes;          \/\/ pointer into original file, for this image$/;"	m	struct:OneGifImage
+import	shared/display.c	/^  Uint32 import;  \/\/ number of important colors in the palette$/;"	m	struct:__anon2	file:
+invalidateImage	shared/display.c	/^void invalidateImage(Image *image) {$/;"	f
+ip	shared/network.h	/^  IPHeader ip;                \/\/ static part of IP header$/;"	m	struct:IP
+ip	shared/network.h	/^  IPHeader ip;$/;"	m	struct:ICMP
+ip	shared/network.h	/^  IPHeader ip;$/;"	m	struct:UDP
+ipBroadcast	shared/network.c	/^static IPAddr ipBroadcast;      \/\/ 255.255.255.255$/;"	v	file:
+ipChecksum	shared/network.c	/^static Uint16 ipChecksum(Uint32 res, Octet *buf, Uint32 len) {$/;"	f	file:
+ipDiscard	shared/network.c	/^static void ipDiscard(IP *buf, Uint32 len, int broadcast) {$/;"	f	file:
+ipHash	shared/network.c	/^static int ipHash(IPAddr addr) {$/;"	f	file:
+ipHeaderChecksum	shared/network.c	/^static Uint16 ipHeaderChecksum(IP *buf) {$/;"	f	file:
+ipHeaderValid	shared/network.c	/^static int ipHeaderValid(IP *buf) {$/;"	f	file:
+ipInit	shared/network.c	/^static void ipInit() {$/;"	f	file:
+ipIsBroadcast	shared/network.c	/^static int ipIsBroadcast(IPAddr addr) {$/;"	f	file:
+ipMutex	shared/network.c	/^static Mutex ipMutex = NULL;$/;"	v	file:
+ipPayloadSize	shared/network.h	239;"	d
+ipProtocolICMP	shared/network.h	220;"	d
+ipProtocolTCP	shared/network.h	221;"	d
+ipProtocolUDP	shared/network.h	222;"	d
+ipProtocols	shared/network.c	/^static IPReceiver *ipProtocols; \/\/ receivers, indexed by protocol$/;"	v	file:
+ipReceiver	shared/network.c	/^static void ipReceiver(MAC srce, Uint16 type, Enet *buf, Uint32 len,$/;"	f	file:
+ip_fromQuad	shared/network.h	/^static IPAddr ip_fromQuad(Octet a, Octet b, Octet c, Octet d) {$/;"	f
+ip_getReceiver	shared/network.c	/^static IPReceiver ip_getReceiver(Octet protocol) {$/;"	f	file:
+ip_headerSize	shared/network.h	/^static Uint32 ip_headerSize(IP *buf) {$/;"	f
+ip_payload	shared/network.h	/^static Octet *ip_payload(IP *buf) {$/;"	f
+ip_payloadSize	shared/network.h	/^static Uint32 ip_payloadSize(IP *buf) {$/;"	f
+ip_register	shared/network.c	/^void ip_register(Octet protocol, IPReceiver receiver) {$/;"	f
+ip_send	shared/network.c	/^void ip_send(IP *buf, Uint32 len, Octet ttl, Octet tos) {$/;"	f
+ip_setSrce	shared/network.c	/^void ip_setSrce(IP *buf) {$/;"	f
+joiner	shared/threads.c	/^  Semaphore joiner;        \/\/ block here in Join until thread terminates$/;"	m	struct:Thread	file:
+k_threadBase	shared/threads.c	/^void * k_threadBase() {$/;"	f
+leftLS	shared/display.c	/^  Octet leftLS;$/;"	m	struct:__anon4	file:
+leftMS	shared/display.c	/^  Octet leftMS;$/;"	m	struct:__anon4	file:
+len	shared/enet.c	/^  Uint32 len;$/;"	m	struct:EnetPending	file:
+len	shared/network.c	/^  int len; \/\/ UDP payload length or negative return code$/;"	m	struct:UDPElem	file:
+len	shared/network.h	/^  Uint16 len;                 \/\/ payload bytes + header bytes (8)$/;"	m	struct:UDPHeader
+len	shared/network.h	/^  Uint16 len;                 \/\/ total length, header + options + payload$/;"	m	struct:IPHeader
+len	shared/tcp.c	/^  Uint32 len;             \/\/ TCP payload bytes currently in buf$/;"	m	struct:TransmitElem	file:
+lines	shared/display.h	/^  Pixel **lines;  \/\/ array of scan lines, each an array of native pixels$/;"	m	struct:__anon5
+link	shared/intercore.h	/^  unsigned int link;$/;"	m	struct:SaveArea
+localPort	shared/tcp.c	/^  TCPPort localPort;$/;"	m	struct:TCP	file:
+mac	shared/network.c	/^  MAC mac;$/;"	m	struct:ARPCacheEntry	file:
+macKnown	shared/enet.c	/^static int macKnown = 0;$/;"	v	file:
+magicCookie	shared/network.c	/^  Uint32 magicCookie;$/;"	m	struct:DHCPHeader	file:
+main	main.c	/^int main()$/;"	f
+main	shared/mcMain.c	/^int main (int argc, const char * argv[]) {$/;"	f
+malloc	shared/mcLibc.c	/^void *malloc(size_t size) {$/;"	f
+maxRecvWindow	shared/tcp.c	58;"	d	file:
+maxServers	shared/network.c	656;"	d	file:
+mcFree	shared/mcLibc.c	27;"	d	file:
+mcMalloc	shared/mcLibc.c	26;"	d	file:
+mcPutchar	shared/mcLibc.c	25;"	d	file:
+mc_exit	shared/mcMain.c	/^static void mc_exit() {$/;"	f	file:
+mc_initRPC	shared/mcLibc.c	/^void mc_initRPC() {$/;"	f
+messageType	shared/network.c	/^  Octet messageType;$/;"	m	struct:DHCPHeader	file:
+message_len	shared/intercore.h	/^static unsigned int message_len(unsigned int s) {$/;"	f
+message_srce	shared/intercore.h	/^static unsigned int message_srce(unsigned int s) {$/;"	f
+message_type	shared/intercore.h	/^static unsigned int message_type(unsigned int s) {$/;"	f
+method	shared/display.c	/^  Uint32 method;  \/\/ compression method$/;"	m	struct:__anon2	file:
+misc	shared/network.c	/^  short misc;$/;"	m	struct:DNSHeader	file:
+misc	shared/network.h	/^  Uint32 misc;$/;"	m	struct:ICMPHeader
+misc	shared/tcp.c	/^  Uint16 misc;$/;"	m	struct:TCPHeader	file:
+miscIO	shared/intercore.h	/^static volatile unsigned int* miscIO = (unsigned int *)0x0000000a;$/;"	v
+mqDiscard	shared/mq.c	/^static void mqDiscard(unsigned int srce, unsigned int type,$/;"	f	file:
+mqHandlers	shared/mq.c	/^static MQReceiver *mqHandlers;$/;"	v	file:
+mqInit	shared/mq.c	/^static void mqInit() {$/;"	f	file:
+mqMutex	shared/mq.c	/^static Mutex mqMutex = NULL;$/;"	v	file:
+mqReceiver	shared/mq.c	/^static void mqReceiver(void * arg) {$/;"	f	file:
+mqThread	shared/enet.c	/^static Thread mqThread = NULL;$/;"	v	file:
+mq_register	shared/mq.c	/^void mq_register(unsigned int core, MQReceiver receiver) {$/;"	f
+msg	client.py	/^    msg=raw_input()$/;"	v
+msgControl	shared/intercore.h	/^static volatile unsigned int* msgControl = (unsigned int *)0x00000012;$/;"	v
+msgTypeRPC	shared/mcLibc.c	24;"	d	file:
+mss	shared/tcp.c	/^  Uint16 mss;             \/\/ Maximum receive segment size.$/;"	m	struct:MSSOption	file:
+mssKind	shared/tcp.c	/^  Octet mssKind;          \/\/ Option-kind = 2, MSS$/;"	m	struct:MSSOption	file:
+mssLen	shared/tcp.c	/^  Octet mssLen;           \/\/ Option-length = 4;$/;"	m	struct:MSSOption	file:
+multiplier	shared/intercore.h	/^static volatile unsigned int* multiplier = (unsigned int *)0x00000006;$/;"	v
+mutex_acquire	shared/threads.c	/^void mutex_acquire(Mutex m) {$/;"	f
+mutex_create	shared/threads.c	/^Mutex mutex_create() {$/;"	f
+mutex_release	shared/threads.c	/^void mutex_release(Mutex m) {$/;"	f
+myDNS	shared/network.c	/^static DNSAddrs myDNS;$/;"	v	file:
+myIP	shared/network.c	/^static IPAddr myIP = 0;$/;"	v	file:
+myMAC	shared/enet.c	/^static MAC myMAC;$/;"	v	file:
+myRouter	shared/network.c	/^static IPAddr myRouter;$/;"	v	file:
+mySubnetMask	shared/network.c	/^static IPAddr mySubnetMask;$/;"	v	file:
+networkInit	shared/network.c	/^static void networkInit() {$/;"	f	file:
+next	shared/display.h	/^  struct OneGifImage *next; \/\/ next image, or NULL$/;"	m	struct:OneGifImage	typeref:struct:OneGifImage::OneGifImage
+next	shared/enet.c	/^  struct EnetPending *next;$/;"	m	struct:EnetPending	typeref:struct:EnetPending::EnetPending	file:
+next	shared/network.c	/^  struct UDPElem *next;$/;"	m	struct:UDPElem	typeref:struct:UDPElem::UDPElem	file:
+next	shared/network.h	/^  struct Enet *next;$/;"	m	struct:Enet	typeref:struct:Enet::Enet
+next	shared/network.h	/^  struct IP *next;            \/\/ not used by IP; available for clients.$/;"	m	struct:IP	typeref:struct:IP::IP
+next	shared/tcp.c	/^  struct TransmitElem *next;$/;"	m	struct:TransmitElem	typeref:struct:TransmitElem::TransmitElem	file:
+next	shared/threads.c	/^  Thread next;             \/\/ thread queue link$/;"	m	struct:Thread	file:
+nextActive	shared/tcp.c	/^  TCP nextActive;         \/\/ list of connections for localPort$/;"	m	struct:TCP	file:
+nextPending	shared/tcp.c	/^  TCP nextPending;        \/\/ list of not-yet-accepted connections$/;"	m	struct:TCP	file:
+nextServerIP	shared/network.c	/^  Uint32 nextServerIP;$/;"	m	struct:DHCPHeader	file:
+now	shared/threads.c	/^static Cycles now = 1;        \/\/ inferred high precision cycle counter$/;"	v	file:
+nsCount	shared/network.c	/^  short nsCount;$/;"	m	struct:DNSHeader	file:
+ntoh	shared/network.h	/^static Uint32 ntoh(Uint32 n) {$/;"	f
+ntohCopy	shared/network.h	/^static Uint32 ntohCopy(Octet * srce) {$/;"	f
+ntohs	shared/network.h	/^static Uint16 ntohs(Uint16 n) {$/;"	f
+ntohsCopy	shared/network.h	/^static Uint16 ntohsCopy(Octet * srce) {$/;"	f
+op	main.c	/^	short op;$/;"	m	struct:TFTPHeader	file:
+op	shared/tftp.c	/^  short op;$/;"	m	struct:TFTPHeader	file:
+opcode	shared/network.c	/^  Uint16 opcode;$/;"	m	struct:ARPPacket	file:
+outOfOrderHead	shared/tcp.c	/^  IP *outOfOrderHead;     \/\/ head of ouot-of-order packet queue$/;"	m	struct:TCP	file:
+outOfOrderTail	shared/tcp.c	/^  IP *outOfOrderTail;     \/\/ tail of out-of-order packet queue$/;"	m	struct:TCP	file:
+p1	main.s	/^p1 = $27     \/\/ not callee save, platform 1, not avail for reg alloc$/;"	d
+packed	shared/display.c	/^  Octet packed;    \/\/ odds and ends$/;"	m	struct:__anon3	file:
+packed	shared/display.c	/^  Octet packed;$/;"	m	struct:__anon4	file:
+packed	shared/display.h	/^  Octet packed;$/;"	m	struct:__anon6
+paintImage	shared/display.c	/^void paintImage(Image *dest, Image *copy, Image *srce, int x, int y) {$/;"	f
+paintPixel	shared/display.h	/^static inline void paintPixel(Pixel *dest, Pixel srce) {$/;"	f
+paintRepeat	shared/display.c	/^void paintRepeat(Image *dest, Image *srce, int x, int y, int w, int h) {$/;"	f
+palette	shared/display.c	/^  Uint32 palette; \/\/ palette size, 2^n if 0$/;"	m	struct:__anon2	file:
+payloadChecksum	shared/network.c	/^Uint16 payloadChecksum(IP *buf, Uint32 len) {$/;"	f
+pc	shared/intercore.h	/^  unsigned int pc;$/;"	m	struct:SaveArea
+pending	shared/tcp.c	/^  TCP pending;            \/\/ queue of established but not accepted$/;"	m	struct:Listener	file:
+pendingCount	shared/tcp.c	/^  int pendingCount;       \/\/ length of pending$/;"	m	struct:Listener	file:
+pendingHead	shared/enet.c	/^static EnetPending pendingHead = NULL;$/;"	v	file:
+pendingTail	shared/enet.c	/^static EnetPending pendingTail = NULL;$/;"	v	file:
+pendingTail	shared/tcp.c	/^  TCP pendingTail;$/;"	m	struct:Listener	file:
+pixelAspectRatio	shared/display.c	/^  Octet pixelAspectRatio;$/;"	m	struct:__anon3	file:
+pixelMem	shared/display.h	/^  void *pixelMem; \/\/ memory block allocated for "lines"$/;"	m	struct:__anon5
+pl	shared/intercore.h	/^  unsigned int pl;$/;"	m	struct:SaveArea
+planes	shared/display.c	/^  Uint16 planes;  \/\/ color plane count, always 1$/;"	m	struct:__anon2	file:
+prev	shared/network.c	/^  struct UDPElem *prev;$/;"	m	struct:UDPElem	typeref:struct:UDPElem::UDPElem	file:
+prevCycles	shared/threads.c	/^static unsigned int prevCycles; \/\/ last cycle counter seen by timer stuff$/;"	v	file:
+protocol	shared/network.h	/^  Octet protocol;             \/\/ protocol family$/;"	m	struct:IPHeader
+protocolSize	shared/network.c	/^  Octet protocolSize;$/;"	m	struct:ARPPacket	file:
+protocolType	shared/network.c	/^  Uint16 protocolType;$/;"	m	struct:ARPPacket	file:
+pruneTransmitQueue	shared/tcp.c	/^static void pruneTransmitQueue(TCP tcp) {$/;"	f	file:
+putchar	shared/mcLibc.c	/^int putchar(int c) {$/;"	f
+q	shared/threads.c	/^  Queue q;                 \/\/ thread queue this is on, or NULL$/;"	m	struct:Thread	file:
+q	shared/threads.c	/^  struct Queue q;$/;"	m	struct:Condition	typeref:struct:Condition::Queue	file:
+q	shared/threads.c	/^  struct Queue q;$/;"	m	struct:Mutex	typeref:struct:Mutex::Queue	file:
+q	shared/threads.c	/^  struct Queue q;$/;"	m	struct:Semaphore	typeref:struct:Semaphore::Queue	file:
+qdCount	shared/network.c	/^  short qdCount;$/;"	m	struct:DNSHeader	file:
+queue_block	shared/threads.c	/^int queue_block(Queue q, Microsecs microsecs) {$/;"	f
+queue_init	shared/threads.c	/^void queue_init(Queue q) {$/;"	f
+queue_isEmpty	shared/threads.c	/^int queue_isEmpty(Queue q) {$/;"	f
+queue_unblock	shared/threads.c	/^void queue_unblock(Queue q) {$/;"	f
+r1	main.s	/^r1 = $1      \/\/ function return value$/;"	d
+r1	shared/intercore.h	/^  unsigned int r1;$/;"	m	struct:SaveArea
+r10	main.s	/^r10 = $10    \/\/ callee save$/;"	d
+r10	shared/intercore.h	/^  unsigned int r10;$/;"	m	struct:SaveArea
+r11	main.s	/^r11 = $11    \/\/ callee save$/;"	d
+r11	shared/intercore.h	/^  unsigned int r11;$/;"	m	struct:SaveArea
+r12	main.s	/^r12 = $12    \/\/ callee save$/;"	d
+r12	shared/intercore.h	/^  unsigned int r12;$/;"	m	struct:SaveArea
+r13	main.s	/^r13 = $13    \/\/ callee save$/;"	d
+r13	shared/intercore.h	/^  unsigned int r13;$/;"	m	struct:SaveArea
+r14	main.s	/^r14 = $14    \/\/ callee save$/;"	d
+r14	shared/intercore.h	/^  unsigned int r14;$/;"	m	struct:SaveArea
+r15	main.s	/^r15 = $15    \/\/ callee save$/;"	d
+r15	shared/intercore.h	/^  unsigned int r15;$/;"	m	struct:SaveArea
+r16	main.s	/^r16 = $16    \/\/ callee save$/;"	d
+r16	shared/intercore.h	/^  unsigned int r16;$/;"	m	struct:SaveArea
+r17	main.s	/^r17 = $17    \/\/ callee save$/;"	d
+r17	shared/intercore.h	/^  unsigned int r17;$/;"	m	struct:SaveArea
+r18	main.s	/^r18 = $18    \/\/ callee save$/;"	d
+r18	shared/intercore.h	/^  unsigned int r18;$/;"	m	struct:SaveArea
+r19	main.s	/^r19 = $19    \/\/ callee save$/;"	d
+r19	shared/intercore.h	/^  unsigned int r19;$/;"	m	struct:SaveArea
+r2	main.s	/^r2 = $2      \/\/ not callee save$/;"	d
+r2	shared/intercore.h	/^  unsigned int r2;$/;"	m	struct:SaveArea
+r20	main.s	/^r20 = $20    \/\/ callee save$/;"	d
+r20	shared/intercore.h	/^  unsigned int r20;$/;"	m	struct:SaveArea
+r21	main.s	/^r21 = $21    \/\/ callee save$/;"	d
+r21	shared/intercore.h	/^  unsigned int r21;$/;"	m	struct:SaveArea
+r22	main.s	/^r22 = $22    \/\/ callee save$/;"	d
+r22	shared/intercore.h	/^  unsigned int r22;$/;"	m	struct:SaveArea
+r3	main.s	/^r3 = $3      \/\/ not callee save, function argument 1$/;"	d
+r3	shared/intercore.h	/^  unsigned int r3;$/;"	m	struct:SaveArea
+r4	main.s	/^r4 = $4      \/\/ not callee save, function argument 2$/;"	d
+r4	shared/intercore.h	/^  unsigned int r4;$/;"	m	struct:SaveArea
+r5	main.s	/^r5 = $5      \/\/ not callee save, function argument 3$/;"	d
+r5	shared/intercore.h	/^  unsigned int r5;$/;"	m	struct:SaveArea
+r6	main.s	/^r6 = $6      \/\/ not callee save, function argument 4$/;"	d
+r6	shared/intercore.h	/^  unsigned int r6;$/;"	m	struct:SaveArea
+r7	main.s	/^r7 = $7      \/\/ not callee save, function argument 5$/;"	d
+r7	shared/intercore.h	/^  unsigned int r7;$/;"	m	struct:SaveArea
+r8	main.s	/^r8 = $8      \/\/ not callee save, function argument 6$/;"	d
+r8	shared/intercore.h	/^  unsigned int r8;$/;"	m	struct:SaveArea
+r9	main.s	/^r9 = $9      \/\/ callee save$/;"	d
+r9	shared/intercore.h	/^  unsigned int r9;$/;"	m	struct:SaveArea
+readBmp	shared/display.c	/^Image *readBmp(char *imgBytes, int imgLen) {$/;"	f
+readClock	shared/threads.c	/^static void readClock() {$/;"	f	file:
+readDhcpOptions	shared/network.c	/^static void readDhcpOptions(Octet *optData,$/;"	f	file:
+readGif	shared/display.c	/^GifImage *readGif(Octet *imgBytes, int imgLen) {$/;"	f
+read_epc	shared/timerInterrupt.h	/^static unsigned int read_epc() {$/;"	f
+read_handlerR	shared/timerInterrupt.h	/^static unsigned int read_handlerR() {$/;"	f
+read_mask	shared/timerInterrupt.h	/^static unsigned int read_mask() {$/;"	f
+read_monitors	shared/cache_monitor.h	/^static unsigned int read_monitors(unsigned int cnt) {$/;"	f
+read_monitors	shared/monitor.h	/^unsigned int read_monitors(unsigned int cnt) {$/;"	f
+read_timeIntervals	shared/timerInterrupt.h	/^static unsigned int read_timeIntervals() {$/;"	f
+ready	shared/threads.c	/^static struct Queue ready;    \/\/ Threads ready to run$/;"	v	typeref:struct:Queue	file:
+recvBuf	shared/tcp.c	/^  Octet *recvBuf;         \/\/ cyclic queue of data not yet consumed by client$/;"	m	struct:TCP	file:
+recvBufCount	shared/tcp.c	/^  int recvBufCount;       \/\/ amount of data in recvBuf$/;"	m	struct:TCP	file:
+recvBufStart	shared/tcp.c	/^  int recvBufStart;       \/\/ start of data in recvBuf$/;"	m	struct:TCP	file:
+recvInit	shared/tcp.c	/^  Uint32 recvInit;        \/\/ initial recv sequence number$/;"	m	struct:TCP	file:
+recvNext	shared/tcp.c	/^  Uint32 recvNext;        \/\/ sequence number of next byte to be received$/;"	m	struct:TCP	file:
+recvPushed	shared/tcp.c	/^  int recvPushed;         \/\/ last received byte had the PUSH flag set$/;"	m	struct:TCP	file:
+recvWindow	shared/tcp.c	/^  Uint32 recvWindow;      \/\/ byte count relative to recvNext$/;"	m	struct:TCP	file:
+relayAgentIP	shared/network.c	/^  Uint32 relayAgentIP;$/;"	m	struct:DHCPHeader	file:
+releaseRS232	shared/intercore.h	/^static void releaseRS232() {$/;"	f
+remoteAddr	shared/tcp.c	/^  IPAddr remoteAddr;$/;"	m	struct:Listener	file:
+remoteAddr	shared/tcp.c	/^  IPAddr remoteAddr;$/;"	m	struct:TCP	file:
+remotePort	shared/tcp.c	/^  TCPPort remotePort;$/;"	m	struct:Listener	file:
+remotePort	shared/tcp.c	/^  TCPPort remotePort;$/;"	m	struct:TCP	file:
+renderGif	shared/display.c	/^Image *renderGif(OneGifImage *gif, Pixel *gColors) {$/;"	f
+reserved1	shared/display.c	/^  Uint16 reserved1;$/;"	m	struct:__anon2	file:
+reserved2	shared/display.c	/^  Uint16 reserved2;$/;"	m	struct:__anon2	file:
+retransmitter	shared/tcp.c	/^static void retransmitter(void *arg) {$/;"	f	file:
+retryLimit	main.c	25;"	d	file:
+retryLimit	shared/tftp.c	33;"	d	file:
+rpcServer	shared/mcLibc.c	/^static void rpcServer(unsigned int core, unsigned int type,$/;"	f	file:
+rqCount	shared/intercore.h	/^  unsigned int rqCount;$/;"	m	struct:SaveArea
+rqValues	shared/intercore.h	/^  unsigned int rqValues[96];$/;"	m	struct:SaveArea
+rs232	shared/intercore.h	/^static volatile unsigned int* rs232 = (unsigned int *)0x00000002;$/;"	v
+rs232	shared/threads.c	/^static volatile unsigned int *rs232 = (unsigned int *)0x02;$/;"	v	file:
+running	shared/threads.c	/^static Thread running = NULL; \/\/ Currently executing thread$/;"	v	file:
+s	client.py	/^s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)$/;"	v
+s	server.py	/^s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)$/;"	v
+schedule	shared/threads.c	/^static void schedule() {$/;"	f	file:
+seconds	shared/network.c	/^  Uint16 seconds;$/;"	m	struct:DHCPHeader	file:
+sem_P	shared/threads.c	/^void sem_P(Semaphore s) {$/;"	f
+sem_V	shared/threads.c	/^void sem_V(Semaphore s) {$/;"	f
+sem_create	shared/threads.c	/^Semaphore sem_create() {$/;"	f
+semaControl	shared/intercore.h	/^static volatile unsigned int* semaControl = (unsigned int *)0x00000016;$/;"	v
+sendData	main.c	/^void sendData(IPAddr ip,char *data,int len)$/;"	f
+sendData	shared/tcp.c	/^static void sendData(TCP tcp) {$/;"	f	file:
+sendInProgress	shared/enet.c	/^static int sendInProgress;          \/\/ waiting for a transmit ack$/;"	v	file:
+sendInit	shared/tcp.c	/^  Uint32 sendInit;        \/\/ sequence number of our initial SYN$/;"	m	struct:TCP	file:
+sendNagled	shared/tcp.c	/^  Uint32 sendNagled;      \/\/ bool: transmission was blocked by Nagle$/;"	m	struct:TCP	file:
+sendNext	shared/tcp.c	/^  Uint32 sendNext;        \/\/ sequence number of next byte for transmit queue$/;"	m	struct:TCP	file:
+sendSmall	shared/tcp.c	/^static void sendSmall(TCP tcp, Uint32 seq, Uint16 flags) {$/;"	f	file:
+sendUnack	shared/tcp.c	/^  Uint32 sendUnack;       \/\/ sequence number of first unacknowledged byte$/;"	m	struct:TCP	file:
+sendWindow	shared/tcp.c	/^  Uint32 sendWindow;      \/\/ relative to sendUnack$/;"	m	struct:TCP	file:
+senderIP	shared/network.c	/^  Octet senderIP[4];$/;"	m	struct:ARPPacket	file:
+senderMAC	shared/network.c	/^  Octet senderMAC[6];$/;"	m	struct:ARPPacket	file:
+sending	shared/enet.c	/^IntercoreMessage sending;           \/\/ request message waiting transmit ack$/;"	v
+sentAt	shared/tcp.c	/^  Microsecs sentAt;       \/\/ time at which buf was last transmitted$/;"	m	struct:TransmitElem	file:
+separator	shared/display.c	/^  char separator;$/;"	m	struct:__anon4	file:
+seq	shared/tcp.c	/^  Uint32 seq;             \/\/ sequence number of first byte in buf$/;"	m	struct:TransmitElem	file:
+seq	shared/tcp.c	/^  Uint32 seq;$/;"	m	struct:TCPHeader	file:
+seqComp	shared/tcp.c	/^static int seqComp(Uint32 a, Uint32 b) {$/;"	f	file:
+service	shared/network.h	/^  Octet service;              \/\/ QOS, etc; use 0 normally$/;"	m	struct:IPHeader
+setFrameBuffer	shared/intercore.h	/^static int setFrameBuffer(void *frame) {$/;"	f
+setResponse	shared/mcLibc.c	/^static void setResponse(int core, int n) {$/;"	f	file:
+showFrame	shared/display.c	/^void showFrame(Image *frame) {$/;"	f
+sig1	shared/display.c	/^  char sig1;       \/\/ 'G'$/;"	m	struct:__anon3	file:
+sig2	shared/display.c	/^  char sig2;       \/\/ 'I'$/;"	m	struct:__anon3	file:
+sig3	shared/display.c	/^  char sig3;       \/\/ 'F'$/;"	m	struct:__anon3	file:
+skipName	shared/network.c	/^void skipName(Octet * recvData, int * pos, int recvLen) {$/;"	f
+sname	shared/network.c	/^  Octet sname[64];$/;"	m	struct:DHCPHeader	file:
+sp	main.s	/^sp = $28     \/\/ callee save, stack pointer$/;"	d
+sp	shared/intercore.h	/^  void *sp;$/;"	m	struct:SaveArea
+sp	shared/threads.c	/^  void * sp;               \/\/ saved SP when not running$/;"	m	struct:Thread	file:
+srce	shared/network.h	/^  Uint16 srce;$/;"	m	struct:UDPHeader
+srce	shared/network.h	/^  Uint32 srce;$/;"	m	struct:IPHeader
+srce	shared/tcp.c	/^  Uint16 srce;$/;"	m	struct:TCPHeader	file:
+stackBase	shared/threads.c	/^  void * stackBase;        \/\/ allocated stack (NULL for initial thread)$/;"	m	struct:Thread	file:
+stackTop	shared/threads.c	/^  void * stackTop;         \/\/ top of stack; the thread's initial SP$/;"	m	struct:Thread	file:
+state	shared/tcp.c	/^  int state;              \/\/ the overall state machine$/;"	m	struct:TCP	file:
+stateCloseWait	shared/tcp.c	23;"	d	file:
+stateClosed	shared/tcp.c	31;"	d	file:
+stateClosing	shared/tcp.c	24;"	d	file:
+stateEstablished	shared/tcp.c	20;"	d	file:
+stateFinWait1	shared/tcp.c	21;"	d	file:
+stateFinWait2	shared/tcp.c	22;"	d	file:
+stateLastAck	shared/tcp.c	25;"	d	file:
+stateSynReceived	shared/tcp.c	19;"	d	file:
+stateSynSent	shared/tcp.c	18;"	d	file:
+stateTimeWait	shared/tcp.c	26;"	d	file:
+stateTimeWaitClosed	shared/tcp.c	27;"	d	file:
+status	shared/threads.c	/^  int status;              \/\/ result status from thread_exit, default 0$/;"	m	struct:Thread	file:
+strokeRect	shared/display.c	/^void strokeRect(Image *dest, Pixel pixel, int x, int y, int w, int h,$/;"	f
+t1	main.s	/^t1 = $24     \/\/ not callee save, temporary 1, not avail for reg alloc$/;"	d
+t1	shared/intercore.h	/^  unsigned int t1;$/;"	m	struct:SaveArea
+t2	main.s	/^t2 = $25     \/\/ not callee save, temporary 2, not avail for reg alloc$/;"	d
+t2	shared/intercore.h	/^  unsigned int t2;$/;"	m	struct:SaveArea
+t3	main.s	/^t3 = $26     \/\/ not callee save, temporary 3, not avail for reg alloc$/;"	d
+t3	shared/intercore.h	/^  unsigned int t3;$/;"	m	struct:SaveArea
+tail	shared/threads.h	/^  Thread tail;$/;"	m	struct:Queue
+targetIP	shared/network.c	/^  Octet targetIP[4];$/;"	m	struct:ARPPacket	file:
+targetMAC	shared/network.c	/^  Octet targetMAC[6];$/;"	m	struct:ARPPacket	file:
+tcpAcceptCond	shared/tcp.c	/^static Condition tcpAcceptCond = NULL;$/;"	v	file:
+tcpActive	shared/tcp.c	/^static TCP tcpActive;            \/\/ active connection list$/;"	v	file:
+tcpCloseCond	shared/tcp.c	/^static Condition tcpCloseCond = NULL;$/;"	v	file:
+tcpConnectCond	shared/tcp.c	/^static Condition tcpConnectCond = NULL;$/;"	v	file:
+tcpConnectionDied	shared/network.h	463;"	d
+tcpCreateCond	shared/tcp.c	/^static Condition tcpCreateCond = NULL;$/;"	v	file:
+tcpHeaderSize	shared/tcp.c	/^static Uint32 tcpHeaderSize(IP *buf) {$/;"	f	file:
+tcpInit	shared/tcp.c	/^static void tcpInit() {$/;"	f	file:
+tcpListeners	shared/tcp.c	/^static Listener *tcpListeners;   \/\/ listening state; NULL if not in use$/;"	v	file:
+tcpMutex	shared/tcp.c	/^static Mutex tcpMutex = NULL;$/;"	v	file:
+tcpPayload	shared/tcp.c	/^static Octet * tcpPayload(IP *buf) {$/;"	f	file:
+tcpProcessData	shared/tcp.c	/^static int tcpProcessData(TCP tcp, IP *buf) {$/;"	f	file:
+tcpProcessIncoming	shared/tcp.c	/^static int tcpProcessIncoming(TCP tcp, IP *buf) {$/;"	f	file:
+tcpReceiver	shared/tcp.c	/^static void tcpReceiver(IP *buf, Uint32 len, int broadcast) {$/;"	f	file:
+tcpRecvCond	shared/tcp.c	/^static Condition tcpRecvCond = NULL;$/;"	v	file:
+tcpRejectUnknown	shared/tcp.c	/^static void tcpRejectUnknown(IP *buf) {$/;"	f	file:
+tcpSeed	shared/tcp.c	/^static unsigned int tcpSeed;     \/\/ state for various random numbers$/;"	v	file:
+tcpSend	shared/tcp.c	/^static void tcpSend(TCP tcp, IP *buf, Uint32 len, Uint32 bufSeq,$/;"	f	file:
+tcpSendCond	shared/tcp.c	/^static Condition tcpSendCond = NULL;$/;"	v	file:
+tcpSmallBuf	shared/tcp.c	/^static IP *tcpSmallBuf = NULL;   \/\/ for transmitting SYN, ACK, RST, etc.$/;"	v	file:
+tcp_abort	shared/tcp.c	/^void tcp_abort(TCP tcp) {$/;"	f
+tcp_accept	shared/tcp.c	/^TCP tcp_accept(TCPPort localPort, IPAddr *remoteAddr, TCPPort *remotePort,$/;"	f
+tcp_close	shared/tcp.c	/^void tcp_close(TCP tcp) {$/;"	f
+tcp_connect	shared/tcp.c	/^TCP tcp_connect(TCPPort localPort, IPAddr remoteAddr, TCPPort remotePort,$/;"	f
+tcp_listen	shared/tcp.c	/^void tcp_listen(TCPPort localPort, IPAddr remoteAddr, TCPPort remotePort,$/;"	f
+tcp_push	shared/tcp.c	/^void tcp_push(TCP tcp) {$/;"	f
+tcp_recv	shared/tcp.c	/^int tcp_recv(TCP tcp, Octet *buf, Uint32 len) {$/;"	f
+tcp_send	shared/tcp.c	/^int tcp_send(TCP tcp, Octet *buf, Uint32 len) {$/;"	f
+tcp_shutdown	shared/tcp.c	/^void tcp_shutdown(TCP tcp) {$/;"	f
+tftpOpAck	main.c	14;"	d	file:
+tftpOpAck	shared/tftp.c	22;"	d	file:
+tftpOpData	main.c	13;"	d	file:
+tftpOpData	shared/tftp.c	21;"	d	file:
+tftpOpError	main.c	15;"	d	file:
+tftpOpError	shared/tftp.c	23;"	d	file:
+tftpOpRRQ	main.c	11;"	d	file:
+tftpOpRRQ	shared/tftp.c	19;"	d	file:
+tftpOpWRQ	main.c	12;"	d	file:
+tftpOpWRQ	shared/tftp.c	20;"	d	file:
+tftpPort	main.c	8;"	d	file:
+tftpPort	shared/tftp.c	16;"	d	file:
+tftpPosData	main.c	23;"	d	file:
+tftpPosData	shared/tftp.c	31;"	d	file:
+tftpPosName	main.c	22;"	d	file:
+tftpPosName	shared/tftp.c	30;"	d	file:
+tftp_get	shared/tftp.c	/^char * tftp_get(IPAddr server, char * file,$/;"	f
+tftp_put	main.c	/^char *tftp_put(IPAddr server,char *file,Octet *data,Uint32 dataLen)$/;"	f
+thread_detach	shared/threads.c	/^void thread_detach(Thread t) {$/;"	f
+thread_exit	shared/threads.c	/^void thread_exit(int status) {$/;"	f
+thread_fork	shared/threads.c	/^Thread thread_fork(void forkee(void *), void * forkArg) {$/;"	f
+thread_id	shared/threads.c	/^int thread_id(Thread t) {$/;"	f
+thread_init	shared/threads.c	/^static void thread_init() {$/;"	f	file:
+thread_join	shared/threads.c	/^int thread_join(Thread t) {$/;"	f
+thread_now	shared/threads.c	/^Microsecs thread_now() {$/;"	f
+thread_self	shared/threads.c	/^Thread thread_self() {$/;"	f
+thread_sleep	shared/threads.c	/^void thread_sleep(Microsecs microsecs) {$/;"	f
+thread_xfers	shared/threads.c	/^int thread_xfers() {$/;"	f
+thread_yield	shared/threads.c	/^void thread_yield() {$/;"	f
+time	shared/network.c	/^  Microsecs time;$/;"	m	struct:ARPCacheEntry	file:
+timedOut	shared/threads.c	/^  int timedOut;            \/\/ true iff woken up by a timeout$/;"	m	struct:Thread	file:
+timeout	main.c	26;"	d	file:
+timeout	shared/tftp.c	34;"	d	file:
+timerInerruptControl_epc	shared/timerInterrupt.h	/^static volatile unsigned int* timerInerruptControl_epc = (unsigned int *)0x0000007a;$/;"	v
+timerInerruptControl_handlerR	shared/timerInterrupt.h	/^static volatile unsigned int* timerInerruptControl_handlerR = (unsigned int *)0x0000005a;$/;"	v
+timerInerruptControl_mask	shared/timerInterrupt.h	/^static volatile unsigned int* timerInerruptControl_mask = (unsigned int *)0x0000001a;$/;"	v
+timerInerruptControl_timeInterval	shared/timerInterrupt.h	/^static volatile unsigned int* timerInerruptControl_timeInterval = (unsigned int *)0x0000003a;$/;"	v
+topLS	shared/display.c	/^  Octet topLS;$/;"	m	struct:__anon4	file:
+topMS	shared/display.c	/^  Octet topMS;$/;"	m	struct:__anon4	file:
+tq	shared/threads.c	/^static struct Queue tq;       \/\/ Queue of threads waiting for timed wakeup$/;"	v	typeref:struct:Queue	file:
+tqDequeue	shared/threads.c	/^static void tqDequeue(Thread t) {$/;"	f	file:
+tqEnqueue	shared/threads.c	/^static void tqEnqueue(Thread t, Microsecs microsecs) {$/;"	f	file:
+tqNext	shared/threads.c	/^  Thread tqNext;           \/\/ timer queue link$/;"	m	struct:Thread	file:
+tqPrev	shared/threads.c	/^  Thread tqPrev;           \/\/ timer queue back-pointer$/;"	m	struct:Thread	file:
+tqWakeup	shared/threads.c	/^  Cycles tqWakeup;         \/\/ value of "now" when timer expires; 0 if none$/;"	m	struct:Thread	file:
+transactionID	shared/network.c	/^  Uint32 transactionID;$/;"	m	struct:DHCPHeader	file:
+transmitElemNow	shared/tcp.c	/^static void transmitElemNow(TCP tcp, TransmitElem *elem) {$/;"	f	file:
+transmitHead	shared/tcp.c	/^  TransmitElem *transmitHead; \/\/ retransmission queue$/;"	m	struct:TCP	file:
+transmitTail	shared/tcp.c	/^  TransmitElem *transmitTail; \/\/ current, untransmitted, send buffer$/;"	m	struct:TCP	file:
+transmitted	shared/tcp.c	/^  Uint32 transmitted;     \/\/ sequence number of next byte to be transmitted$/;"	m	struct:TCP	file:
+transparent	shared/display.h	/^  Octet transparent;        \/\/ index of transparent pixel$/;"	m	struct:__anon6
+ttl	shared/network.h	/^  Octet ttl;                  \/\/ remaining hops$/;"	m	struct:IPHeader
+type	shared/enet.c	/^  Uint16 type;$/;"	m	struct:EnetPending	file:
+type	shared/network.h	/^  Octet type;$/;"	m	struct:ICMPHeader
+udp	shared/network.h	/^  UDPHeader udp;$/;"	m	struct:UDP
+udpCond	shared/network.c	/^static Condition udpCond = NULL;$/;"	v	file:
+udpDeliver	shared/network.c	/^static void udpDeliver(IP *buf, int len, int broadcast, UDPPort dest) {$/;"	f	file:
+udpDiscard	shared/network.c	/^static void udpDiscard(IP *buf, int len, int broadcast, UDPPort port) {$/;"	f	file:
+udpEnqueue	shared/network.c	/^static void udpEnqueue(IP *buf, int len, int broadcast, UDPPort dest) {$/;"	f	file:
+udpHead	shared/network.c	/^static UDPElem udpHead = NULL;   \/\/ head of received UDP packet queue$/;"	v	file:
+udpInit	shared/network.c	/^static void udpInit() {$/;"	f	file:
+udpMutex	shared/network.c	/^static Mutex udpMutex = NULL;$/;"	v	file:
+udpPayloadSize	shared/network.h	396;"	d
+udpPort	main.c	6;"	d	file:
+udpPorts	shared/network.c	/^static UDPReceiver *udpPorts;    \/\/ receivers, indexed by port number$/;"	v	file:
+udpReceiver	shared/network.c	/^static void udpReceiver(IP *buf, Uint32 len, int broadcast) {$/;"	f	file:
+udpRecvHostUnreachable	shared/network.h	384;"	d
+udpRecvPortUnreachable	shared/network.h	385;"	d
+udpRecvTimeout	shared/network.h	383;"	d
+udpTail	shared/network.c	/^static UDPElem udpTail = NULL;   \/\/ tail of received UDP packet queue$/;"	v	file:
+udp_allocPort	shared/network.c	/^UDPPort udp_allocPort(UDPReceiver receiver) {$/;"	f
+udp_freePort	shared/network.c	/^void udp_freePort(UDPPort p) {$/;"	f
+udp_payload	shared/network.h	/^static Octet *udp_payload(IP *buf) {$/;"	f
+udp_recv	shared/network.c	/^int udp_recv(IP ** buf, UDPPort p, Microsecs microsecs) {$/;"	f
+udp_recvDone	shared/network.c	/^void udp_recvDone(IP * buf) {$/;"	f
+udp_register	shared/network.c	/^void udp_register(UDPPort p, UDPReceiver receiver) {$/;"	f
+udp_send	shared/network.c	/^void udp_send(UDP *buf, Uint32 len) {$/;"	f
+unlocked	shared/threads.c	/^  int unlocked;$/;"	m	struct:Mutex	file:
+urgent	shared/tcp.c	/^  Uint16 urgent;$/;"	m	struct:TCPHeader	file:
+vRes	shared/display.c	/^  Uint32 vRes;    \/\/ vertical resolution$/;"	m	struct:__anon2	file:
+vb	main.s	/^vb = $29     \/\/ not callee save, rw & rb only, not avail for reg alloc$/;"	d
+vb	shared/intercore.h	/^  unsigned int vb;$/;"	m	struct:SaveArea
+ver1	shared/display.c	/^  char ver1;$/;"	m	struct:__anon3	file:
+ver2	shared/display.c	/^  char ver2;$/;"	m	struct:__anon3	file:
+ver3	shared/display.c	/^  char ver3;$/;"	m	struct:__anon3	file:
+versionAndLen	shared/network.h	/^  Octet versionAndLen;        \/\/ 0x45 for IPv4 with no options$/;"	m	struct:IPHeader
+void	main.s	/^void = $0    \/\/ void destination$/;"	d
+w	shared/display.h	/^  Uint32 w;$/;"	m	struct:__anon5
+w	shared/display.h	/^  int w;                    \/\/ canvas size$/;"	m	struct:__anon7
+w	shared/display.h	/^  int w;                    \/\/ size of this image$/;"	m	struct:OneGifImage
+wLS	shared/display.c	/^  Octet wLS;       \/\/ canvas width$/;"	m	struct:__anon3	file:
+wLS	shared/display.c	/^  Octet wLS;$/;"	m	struct:__anon4	file:
+wMS	shared/display.c	/^  Octet wMS;$/;"	m	struct:__anon3	file:
+wMS	shared/display.c	/^  Octet wMS;$/;"	m	struct:__anon4	file:
+waitRS232Out	shared/intercore.h	/^static void waitRS232Out() {$/;"	f
+width	shared/display.c	/^  Uint32 width;   \/\/ pixels$/;"	m	struct:__anon2	file:
+window	shared/tcp.c	/^  Uint16 window;$/;"	m	struct:TCPHeader	file:
+x	shared/display.h	/^  int x;                    \/\/ position of this image on the GIF's canvas$/;"	m	struct:OneGifImage
+xferCount	shared/threads.c	/^static int xferCount = 0;     \/\/ performance counter$/;"	v	file:
+y	shared/display.h	/^  int y;$/;"	m	struct:OneGifImage
+yourIP	shared/network.c	/^  Uint32 yourIP;$/;"	m	struct:DHCPHeader	file:
+zero	main.s	/^zero = $0    \/\/ fixed zero$/;"	d

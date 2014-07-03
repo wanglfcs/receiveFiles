@@ -17,8 +17,9 @@ int main()
 		data[i]=i%26+'a';
 	IPAddr ip=0xc0a832f5;
 	printf("begin send file\n");
-	tftp_put(ip,file,(Octet *)data,1000);
-	//tftp_get(ip,file,callBackFunc);
+	//tftp_put(ip,file,(Octet *)data,1000);
+	tftp_put(ip,file,callBackFunc);
+	printf("finish\n");
 	return 0;
 }
 
