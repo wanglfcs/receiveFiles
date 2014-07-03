@@ -23272,7 +23272,7 @@
     <local name="_transmitElemNow" seg=".text" off="00000214" />
   </object>
   <object file="tftp.o" coderota="00000000" datarota="00000002">
-    <segment name=".text" kind="code" ibase="00000000" isize="000002d5" rota="00000000" alignbic="00000000">
+    <segment name=".text" kind="code" ibase="00000000" isize="000002c2" rota="00000000" alignbic="00000000">
       <w v="e7001246" />
       <w v="f7c00305" />
       <w v="27400307" />
@@ -23368,9 +23368,7 @@
       <w v="f800424c" />
       <w v="e7001246" />
       <w v="f7c00305" />
-      <w v="e700b245" />
-      <w v="e7409206" />
-      <w v="97c00305" />
+      <w v="e700a245" />
       <w v="e7408206" />
       <w v="8fc00305" />
       <w v="e7407206" />
@@ -23397,7 +23395,7 @@
       <w v="00c000c5" />
       <w v="00000003" />
       <w v="f0000308" />
-      <w v="0b400305" />
+      <w v="0b000305" />
       <w v="48b00301" />
       <w v="48700300" />
       <w v="10800505" />
@@ -23415,8 +23413,8 @@
       <w v="c7440a81" />
       <w v="00000003" />
       <w v="f0007408" />
-      <w v="68500301" />
-      <w v="68900300" />
+      <w v="60500301" />
+      <w v="60900300" />
       <w v="08400905" />
       <w v="5e005205" />
       <w v="0e600301" />
@@ -23424,7 +23422,7 @@
       <w v="07407506" />
       <w v="ee200300" />
       <w v="c7e06502" />
-      <w v="5c407205" />
+      <w v="5c007205" />
       <w v="5e007205" />
       <w v="06670301" />
       <w v="c7400ac7" />
@@ -23448,7 +23446,7 @@
       <w v="c843fe85" />
       <w v="010000c5" />
       <w v="0f400245" />
-      <w v="f8032a0a" />
+      <w v="f802e60a" />
       <w v="21000605" />
       <w v="58401005" />
       <w v="56001005" />
@@ -23500,64 +23498,32 @@
       <w v="18c00605" />
       <w v="0f400245" />
       <w v="f8004e4e" />
-      <w v="03000605" />
       <w v="00000003" />
-      <w v="f3800305" />
-      <w v="e3c0a205" />
+      <w v="f3c00305" />
+      <w v="e3809205" />
       <w v="00000003" />
-      <w v="f4000305" />
+      <w v="f3400305" />
       <w v="00000003" />
-      <w v="f4800305" />
+      <w v="f4400305" />
       <w v="028000c5" />
       <w v="58c00305" />
       <w v="49000305" />
-      <w v="70000308" />
-      <w v="78c00305" />
-      <w v="69000305" />
+      <w v="78000308" />
+      <w v="70c00305" />
+      <w v="61000305" />
       <w v="002dc6c3" />
       <w v="f1400305" />
       <w v="018000c5" />
-      <w v="80000308" />
-      <w v="e740a207" />
+      <w v="68000308" />
+      <w v="e7409207" />
       <w v="e8c00305" />
       <w v="1f400245" />
-      <w v="f800820a" />
-      <w v="1f400ec7" />
-      <w v="e883fe85" />
-      <w v="10403e85" />
-      <w v="09040301" />
-      <w v="18401005" />
-      <w v="09402205" />
-      <w v="0e002205" />
-      <w v="c7400ac7" />
-      <w v="07600640" />
-      <w v="e8407485" />
-      <w v="08900301" />
-      <w v="08500300" />
-      <w v="10800505" />
-      <w v="16600301" />
-      <w v="c8a00304" />
-      <w v="00401205" />
-      <w v="17400445" />
-      <w v="f800c60e" />
-      <w v="2e000a05" />
-      <w v="c7420a81" />
-      <w v="00000003" />
-      <w v="f0007408" />
-      <w v="ce600301" />
-      <w v="c8600300" />
-      <w v="08900301" />
-      <w v="08500300" />
-      <w v="10800505" />
-      <w v="16600301" />
-      <w v="c8a00300" />
-      <w v="17403045" />
-      <w v="f800c60a" />
+      <w v="f8008a0e" />
       <w v="52800605" />
       <w v="00801605" />
       <w v="57400845" />
-      <w v="f800be4e" />
-      <w v="68c00305" />
+      <w v="f800424e" />
+      <w v="60c00305" />
       <w v="00000003" />
       <w v="f0000308" />
       <w v="58c00305" />
@@ -23583,24 +23549,27 @@
       <w v="ec000305" />
       <w v="e7408207" />
       <w v="ec400305" />
-      <w v="e7409207" />
-      <w v="ec800305" />
-      <w v="e700b207" />
+      <w v="e700a207" />
       <w v="e7001205" />
       <w v="e800030c" />
-      <w v="68c00305" />
-      <w v="00000003" />
-      <w v="f0000308" />
-      <w v="58c00305" />
-      <w v="00000003" />
-      <w v="f0000308" />
-      <w v="e740a207" />
-      <w v="e8c00305" />
-      <w v="00000003" />
-      <w v="f0000308" />
-      <w v="00000003" />
-      <w v="f0400305" />
-      <w v="f8008e4c" />
+      <w v="1f400ec7" />
+      <w v="e883fe85" />
+      <w v="10403e85" />
+      <w v="09040301" />
+      <w v="18401005" />
+      <w v="09402205" />
+      <w v="0e002205" />
+      <w v="c7400ac7" />
+      <w v="07600640" />
+      <w v="e8407485" />
+      <w v="08900301" />
+      <w v="08500300" />
+      <w v="10800505" />
+      <w v="16600301" />
+      <w v="c8a00304" />
+      <w v="00401205" />
+      <w v="17400445" />
+      <w v="f800c60e" />
       <w v="1e001005" />
       <w v="c7400ac7" />
       <w v="07600640" />
@@ -23611,7 +23580,7 @@
       <w v="00000003" />
       <w v="f0007408" />
       <w v="06678301" />
-      <w v="8f400ac7" />
+      <w v="87400ac7" />
       <w v="07407506" />
       <w v="ee200300" />
       <w v="c7e06502" />
@@ -23630,7 +23599,7 @@
       <w v="08900301" />
       <w v="08500300" />
       <w v="10800505" />
-      <w v="8e000a05" />
+      <w v="86000a05" />
       <w v="16400305" />
       <w v="c7440a81" />
       <w v="00000003" />
@@ -23646,13 +23615,25 @@
       <w v="00405205" />
       <w v="17400445" />
       <w v="f800264e" />
-      <w v="90000308" />
-      <w v="63000605" />
+      <w v="88000308" />
       <w v="02406205" />
-      <w v="f802364c" />
+      <w v="f801c24c" />
+      <w v="60c00305" />
+      <w v="00000003" />
+      <w v="f0000308" />
+      <w v="58c00305" />
+      <w v="00000003" />
+      <w v="f0000308" />
+      <w v="e7409207" />
+      <w v="e8c00305" />
+      <w v="00000003" />
+      <w v="f0000308" />
+      <w v="00000003" />
+      <w v="f0400305" />
+      <w v="f8018e4c" />
       <w v="00800e05" />
       <w v="02401205" />
-      <w v="f802da4c" />
+      <w v="f802964c" />
       <w v="e7001246" />
       <w v="f7c00305" />
       <w v="e700f245" />
@@ -24052,13 +24033,13 @@
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000076">
+      <ep i="00000074">
         <bin op="bic">
           <refsym name="_enet_alloc" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000077">
+      <ep i="00000075">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_enet_alloc" />
@@ -24067,13 +24048,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="0000007a">
+      <ep i="00000078">
         <bin op="bic">
           <refsym name="_udp_allocPort" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="0000007b">
+      <ep i="00000079">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_allocPort" />
@@ -24082,61 +24063,61 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="0000008c" msg="tftp.s:209">
+      <ep i="0000008a" msg="tftp.s:207">
         <bin op="mbz">
           <refsym name="___codetable_store_half_8i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000a0" msg="tftp.s:229">
+      <ep i="0000009e" msg="tftp.s:227">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000a6" msg="tftp.s:235">
+      <ep i="000000a4" msg="tftp.s:233">
         <bin op="mbz">
           <refsym name="___codetable_store_byte_8i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000aa" msg="tftp.s:239">
+      <ep i="000000a8" msg="tftp.s:237">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000b4" msg="tftp.s:250">
+      <ep i="000000b2" msg="tftp.s:248">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000ba" msg="tftp.s:256">
+      <ep i="000000b8" msg="tftp.s:254">
         <bin op="mbz">
           <refsym name="___codetable_store_byte_8i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000bf" msg="tftp.s:261">
+      <ep i="000000bd" msg="tftp.s:259">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000c9" msg="tftp.s:272">
+      <ep i="000000c7" msg="tftp.s:270">
         <bin op="mbz">
           <refsym name="___codetable_store_byte_8i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000cb">
+      <ep i="000000c9">
         <bin op="bic">
           <refseg name=".data" off="00000001" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000cc">
+      <ep i="000000ca">
         <bin op="rol">
           <bin op="bic">
             <refseg name=".data" off="00000001" />
@@ -24145,31 +24126,31 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000000d1" msg="tftp.s:280">
+      <ep i="000000cf" msg="tftp.s:278">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000d7" msg="tftp.s:286">
+      <ep i="000000d5" msg="tftp.s:284">
         <bin op="mbz">
           <refsym name="___codetable_store_byte_8i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000dc" msg="tftp.s:291">
+      <ep i="000000da" msg="tftp.s:289">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000e4">
+      <ep i="000000e1">
         <bin op="bic">
           <refsym name="_udp_send" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000e5">
+      <ep i="000000e2">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_send" />
@@ -24178,13 +24159,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000000e7">
+      <ep i="000000e4">
         <bin op="bic">
           <refsym name="_udp_recv" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000e8">
+      <ep i="000000e5">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_recv" />
@@ -24193,13 +24174,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000000e9">
+      <ep i="000000e6">
         <bin op="bic">
           <refsym name="_udp_recvDone" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000000ea">
+      <ep i="000000e7">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_recvDone" />
@@ -24208,19 +24189,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="0000010d" msg="tftp.s:338">
-        <bin op="mbz">
-          <refsym name="___codetable_fetch_half_4i" />
-          <val v="0000000f" />
-        </bin>
-      </ep>
-      <ep i="0000011d">
+      <ep i="000000fb">
         <bin op="bic">
           <refsym name="_udp_freePort" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="0000011e">
+      <ep i="000000fc">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_freePort" />
@@ -24229,13 +24204,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="00000120">
+      <ep i="000000fe">
         <bin op="bic">
           <refsym name="_enet_free" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000121">
+      <ep i="000000ff">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_enet_free" />
@@ -24244,13 +24219,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="00000122">
+      <ep i="00000100">
         <bin op="bic">
           <refseg name=".data" off="00000006" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000123">
+      <ep i="00000101">
         <bin op="rol">
           <bin op="bic">
             <refseg name=".data" off="00000006" />
@@ -24259,13 +24234,37 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="0000013c">
+      <ep i="00000130" msg="tftp.s:372">
+        <bin op="mbz">
+          <refsym name="___codetable_store_half_8i" />
+          <val v="0000000f" />
+        </bin>
+      </ep>
+      <ep i="00000139" msg="tftp.s:381">
+        <bin op="mbz">
+          <refsym name="___codetable_fetch_half_4i" />
+          <val v="0000000f" />
+        </bin>
+      </ep>
+      <ep i="00000149" msg="tftp.s:397">
+        <bin op="mbz">
+          <refsym name="___codetable_store_half_8i" />
+          <val v="0000000f" />
+        </bin>
+      </ep>
+      <ep i="00000150" msg="tftp.s:405">
+        <bin op="mbz">
+          <refsym name="___codetable_store_byte_8i" />
+          <val v="0000000f" />
+        </bin>
+      </ep>
+      <ep i="0000015a">
         <bin op="bic">
           <refsym name="_udp_freePort" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="0000013d">
+      <ep i="0000015b">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_freePort" />
@@ -24274,13 +24273,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="0000013f">
+      <ep i="0000015d">
         <bin op="bic">
           <refsym name="_enet_free" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000140">
+      <ep i="0000015e">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_enet_free" />
@@ -24289,13 +24288,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="00000143">
+      <ep i="00000161">
         <bin op="bic">
           <refsym name="_udp_recvDone" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000144">
+      <ep i="00000162">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_recvDone" />
@@ -24304,13 +24303,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="00000145">
+      <ep i="00000163">
         <bin op="bic">
           <refseg name=".data" off="0000000e" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000146">
+      <ep i="00000164">
         <bin op="rol">
           <bin op="bic">
             <refseg name=".data" off="0000000e" />
@@ -24319,37 +24318,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="0000014f" msg="tftp.s:401">
-        <bin op="mbz">
-          <refsym name="___codetable_store_half_8i" />
-          <val v="0000000f" />
-        </bin>
-      </ep>
-      <ep i="00000158" msg="tftp.s:410">
-        <bin op="mbz">
-          <refsym name="___codetable_fetch_half_4i" />
-          <val v="0000000f" />
-        </bin>
-      </ep>
-      <ep i="00000168" msg="tftp.s:426">
-        <bin op="mbz">
-          <refsym name="___codetable_store_half_8i" />
-          <val v="0000000f" />
-        </bin>
-      </ep>
-      <ep i="0000016f" msg="tftp.s:434">
-        <bin op="mbz">
-          <refsym name="___codetable_store_byte_8i" />
-          <val v="0000000f" />
-        </bin>
-      </ep>
-      <ep i="0000019e">
+      <ep i="0000018b">
         <bin op="bic">
           <refsym name="_enet_alloc" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="0000019f">
+      <ep i="0000018c">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_enet_alloc" />
@@ -24358,13 +24333,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000001a2">
+      <ep i="0000018f">
         <bin op="bic">
           <refsym name="_udp_allocPort" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000001a3">
+      <ep i="00000190">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_allocPort" />
@@ -24373,61 +24348,61 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000001b4" msg="tftp.s:511">
+      <ep i="000001a1" msg="tftp.s:491">
         <bin op="mbz">
           <refsym name="___codetable_store_half_8i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000001c8" msg="tftp.s:531">
+      <ep i="000001b5" msg="tftp.s:511">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000001ce" msg="tftp.s:537">
+      <ep i="000001bb" msg="tftp.s:517">
         <bin op="mbz">
           <refsym name="___codetable_store_byte_8i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000001d2" msg="tftp.s:541">
+      <ep i="000001bf" msg="tftp.s:521">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000001dc" msg="tftp.s:552">
+      <ep i="000001c9" msg="tftp.s:532">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000001e2" msg="tftp.s:558">
+      <ep i="000001cf" msg="tftp.s:538">
         <bin op="mbz">
           <refsym name="___codetable_store_byte_8i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000001e7" msg="tftp.s:563">
+      <ep i="000001d4" msg="tftp.s:543">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000001f1" msg="tftp.s:574">
+      <ep i="000001de" msg="tftp.s:554">
         <bin op="mbz">
           <refsym name="___codetable_store_byte_8i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000001f3">
+      <ep i="000001e0">
         <bin op="bic">
           <refseg name=".data" off="00000001" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000001f4">
+      <ep i="000001e1">
         <bin op="rol">
           <bin op="bic">
             <refseg name=".data" off="00000001" />
@@ -24436,31 +24411,31 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000001f9" msg="tftp.s:582">
+      <ep i="000001e6" msg="tftp.s:562">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000001ff" msg="tftp.s:588">
+      <ep i="000001ec" msg="tftp.s:568">
         <bin op="mbz">
           <refsym name="___codetable_store_byte_8i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000204" msg="tftp.s:593">
+      <ep i="000001f1" msg="tftp.s:573">
         <bin op="mbz">
           <refsym name="___codetable_fetch_byte_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="0000020c">
+      <ep i="000001f9">
         <bin op="bic">
           <refsym name="_udp_send" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="0000020d">
+      <ep i="000001fa">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_send" />
@@ -24469,13 +24444,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="0000020f">
+      <ep i="000001fc">
         <bin op="bic">
           <refsym name="_udp_recv" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000210">
+      <ep i="000001fd">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_recv" />
@@ -24484,13 +24459,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="00000211">
+      <ep i="000001fe">
         <bin op="bic">
           <refsym name="_udp_recvDone" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000212">
+      <ep i="000001ff">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_recvDone" />
@@ -24499,19 +24474,19 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="00000238" msg="tftp.s:643">
+      <ep i="00000225" msg="tftp.s:623">
         <bin op="mbz">
           <refsym name="___codetable_fetch_half_4i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000249">
+      <ep i="00000236">
         <bin op="bic">
           <refsym name="_udp_freePort" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="0000024a">
+      <ep i="00000237">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_freePort" />
@@ -24520,13 +24495,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="0000024c">
+      <ep i="00000239">
         <bin op="bic">
           <refsym name="_enet_free" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="0000024d">
+      <ep i="0000023a">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_enet_free" />
@@ -24535,13 +24510,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="0000024e">
+      <ep i="0000023b">
         <bin op="bic">
           <refseg name=".data" off="00000006" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="0000024f">
+      <ep i="0000023c">
         <bin op="rol">
           <bin op="bic">
             <refseg name=".data" off="00000006" />
@@ -24550,13 +24525,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="00000274">
+      <ep i="00000261">
         <bin op="bic">
           <refsym name="_udp_freePort" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000275">
+      <ep i="00000262">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_freePort" />
@@ -24565,13 +24540,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="00000277">
+      <ep i="00000264">
         <bin op="bic">
           <refsym name="_enet_free" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="00000278">
+      <ep i="00000265">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_enet_free" />
@@ -24580,13 +24555,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="0000027b">
+      <ep i="00000268">
         <bin op="bic">
           <refsym name="_udp_recvDone" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="0000027c">
+      <ep i="00000269">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_recvDone" />
@@ -24595,13 +24570,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="0000027d">
+      <ep i="0000026a">
         <bin op="bic">
           <refseg name=".data" off="00000014" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="0000027e">
+      <ep i="0000026b">
         <bin op="rol">
           <bin op="bic">
             <refseg name=".data" off="00000014" />
@@ -24610,7 +24585,19 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="00000290" msg="tftp.s:728">
+      <ep i="0000027d" msg="tftp.s:708">
+        <bin op="mbz">
+          <refsym name="___codetable_store_half_8i" />
+          <val v="0000000f" />
+        </bin>
+      </ep>
+      <ep i="00000286" msg="tftp.s:717">
+        <bin op="mbz">
+          <refsym name="___codetable_fetch_half_4i" />
+          <val v="0000000f" />
+        </bin>
+      </ep>
+      <ep i="0000028c" msg="tftp.s:723">
         <bin op="mbz">
           <refsym name="___codetable_store_half_8i" />
           <val v="0000000f" />
@@ -24618,29 +24605,17 @@
       </ep>
       <ep i="00000299" msg="tftp.s:737">
         <bin op="mbz">
-          <refsym name="___codetable_fetch_half_4i" />
-          <val v="0000000f" />
-        </bin>
-      </ep>
-      <ep i="0000029f" msg="tftp.s:743">
-        <bin op="mbz">
-          <refsym name="___codetable_store_half_8i" />
-          <val v="0000000f" />
-        </bin>
-      </ep>
-      <ep i="000002ac" msg="tftp.s:757">
-        <bin op="mbz">
           <refsym name="___codetable_store_byte_8i" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000002af">
+      <ep i="0000029c">
         <bin op="bic">
           <refsym name="_udp_freePort" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000002b0">
+      <ep i="0000029d">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_freePort" />
@@ -24649,13 +24624,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000002b2">
+      <ep i="0000029f">
         <bin op="bic">
           <refsym name="_enet_free" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000002b3">
+      <ep i="000002a0">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_enet_free" />
@@ -24664,13 +24639,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000002b5">
+      <ep i="000002a2">
         <bin op="bic">
           <refsym name="_strlen" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000002b6">
+      <ep i="000002a3">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_strlen" />
@@ -24679,13 +24654,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000002b9">
+      <ep i="000002a6">
         <bin op="bic">
           <refsym name="_malloc" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000002ba">
+      <ep i="000002a7">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_malloc" />
@@ -24694,13 +24669,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000002bf">
+      <ep i="000002ac">
         <bin op="bic">
           <refsym name="_strncpy" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000002c0">
+      <ep i="000002ad">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_strncpy" />
@@ -24709,13 +24684,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000002c3">
+      <ep i="000002b0">
         <bin op="bic">
           <refsym name="_udp_recvDone" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000002c4">
+      <ep i="000002b1">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_recvDone" />
@@ -24724,13 +24699,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000002cb">
+      <ep i="000002b8">
         <bin op="bic">
           <refsym name="_udp_send" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000002cc">
+      <ep i="000002b9">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_send" />
@@ -24739,13 +24714,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000002ce">
+      <ep i="000002bb">
         <bin op="bic">
           <refsym name="_udp_freePort" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000002cf">
+      <ep i="000002bc">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_udp_freePort" />
@@ -24754,13 +24729,13 @@
           <val v="0000000a" />
         </bin>
       </ep>
-      <ep i="000002d1">
+      <ep i="000002be">
         <bin op="bic">
           <refsym name="_enet_free" />
           <val v="0000000f" />
         </bin>
       </ep>
-      <ep i="000002d2">
+      <ep i="000002bf">
         <bin op="rol">
           <bin op="bic">
             <refsym name="_enet_free" />
@@ -24793,42 +24768,41 @@
     <extrn name="_udp_send" />
     <extrn name="_udp_recv" />
     <extrn name="_udp_recvDone" />
-    <extrn name="___codetable_fetch_half_4i" />
     <extrn name="_udp_freePort" />
     <extrn name="_enet_free" />
+    <extrn name="___codetable_fetch_half_4i" />
     <extrn name="_strlen" />
     <extrn name="_malloc" />
     <extrn name="_strncpy" />
-    <local name="." seg=".text" off="000002d5" />
+    <local name="." seg=".text" off="000002c2" />
     <local name=".L10" seg=".text" off="0000003b" />
     <local name=".L11" seg=".text" off="0000004c" />
     <local name=".L13" seg=".text" off="00000058" />
     <local name=".L16" seg=".text" off="0000005b" />
-    <local name=".L19" seg=".text" off="000000cf" />
-    <local name=".L21" seg=".text" off="000000c5" />
-    <local name=".L22" seg=".text" off="000000ec" />
-    <local name=".L23" seg=".text" off="00000124" />
-    <local name=".L24" seg=".text" off="00000118" />
-    <local name=".L25" seg=".text" off="0000013b" />
-    <local name=".L28" seg=".text" off="0000016b" />
-    <local name=".L29" seg=".text" off="000000eb" />
+    <local name=".L19" seg=".text" off="000000cd" />
+    <local name=".L21" seg=".text" off="000000c3" />
+    <local name=".L22" seg=".text" off="000000e9" />
+    <local name=".L23" seg=".text" off="00000102" />
+    <local name=".L27" seg=".text" off="0000014c" />
+    <local name=".L28" seg=".text" off="000000e8" />
     <local name=".L3" seg=".text" off="0000001a" />
-    <local name=".L31" seg=".text" off="000000b0" />
-    <local name=".L35" seg=".text" off="00000179" />
-    <local name=".L36" seg=".text" off="00000148" />
-    <local name=".L39" seg=".text" off="000001f7" />
+    <local name=".L30" seg=".text" off="000000ae" />
+    <local name=".L34" seg=".text" off="00000166" />
+    <local name=".L35" seg=".text" off="00000117" />
+    <local name=".L36" seg=".text" off="00000159" />
+    <local name=".L39" seg=".text" off="000001e4" />
     <local name=".L4" seg=".text" off="00000031" />
-    <local name=".L41" seg=".text" off="000001ed" />
-    <local name=".L42" seg=".text" off="00000214" />
-    <local name=".L43" seg=".text" off="00000250" />
-    <local name=".L44" seg=".text" off="00000244" />
-    <local name=".L45" seg=".text" off="00000270" />
-    <local name=".L50" seg=".text" off="000002c9" />
-    <local name=".L51" seg=".text" off="00000213" />
-    <local name=".L53" seg=".text" off="000001d8" />
-    <local name=".L57" seg=".text" off="000002c6" />
-    <local name=".L58" seg=".text" off="00000280" />
-    <local name=".L59" seg=".text" off="000002a8" />
+    <local name=".L41" seg=".text" off="000001da" />
+    <local name=".L42" seg=".text" off="00000201" />
+    <local name=".L43" seg=".text" off="0000023d" />
+    <local name=".L44" seg=".text" off="00000231" />
+    <local name=".L45" seg=".text" off="0000025d" />
+    <local name=".L50" seg=".text" off="000002b6" />
+    <local name=".L51" seg=".text" off="00000200" />
+    <local name=".L53" seg=".text" off="000001c5" />
+    <local name=".L57" seg=".text" off="000002b3" />
+    <local name=".L58" seg=".text" off="0000026d" />
+    <local name=".L59" seg=".text" off="00000295" />
     <local name=".L9" seg=".text" off="0000004e" />
     <local name=".LC0" seg=".data" off="00000000" />
     <local name=".LC1" seg=".data" off="00000006" />
@@ -24836,7 +24810,7 @@
     <local name=".LC3" seg=".data" off="00000014" />
     <globl name="_appendData" seg=".text" off="00000034" />
     <globl name="_appendStr" seg=".text" off="00000000" />
-    <globl name="_tftp_get" seg=".text" off="0000017c" />
+    <globl name="_tftp_get" seg=".text" off="00000169" />
     <globl name="_tftp_put" seg=".text" off="0000005d" />
   </object>
   <object file="display.o" coderota="00000000" datarota="00000002">

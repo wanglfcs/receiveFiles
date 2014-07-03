@@ -138,14 +138,12 @@ char * tftp_put(IPAddr server, char * file, void(*receiver)(Octet *, Uint32)) {
 	appendStr(sendBuf, &pos, file);
 	appendStr(sendBuf, &pos, "octet");
 	Uint32 blockNum;
+	Uint32 recvLen;
+	IP * recvBuf;
+	TFTPHeader * recvHeader;
+	int tries;
 	for (blockNum = 1; ; blockNum++) 
 	{
-		Uint32 recvLen;
-		IP * recvBuf;
-		TFTPHeader * recvHeader;
-		Octet * recvData;
-		Uint32 dataLen;
-		int tries;
 		for (tries = 0; ; tries++) 
 		{
 			if (tries >= retryLimit) 
@@ -160,10 +158,7 @@ char * tftp_put(IPAddr server, char * file, void(*receiver)(Octet *, Uint32)) {
 			{
 				recvHeader = (TFTPHeader *)udp_payload(recvBuf);
 				if (ntohs(recvHeader->op) == tftpOpAck) 
-				{
-					if (ntohs(recvHeader->block) == blockNum) 
-						break;
-				} 
+					break;
 				else 
 				{
 					udp_freePort(local);
