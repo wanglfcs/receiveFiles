@@ -6,20 +6,19 @@
 #define udpPort 31500
 
 void sendData(IPAddr ip,char *data,int len);
+void callBackFunc(Octet *buf,Uint32 len);
 
 int main()
 {
-	char data[100];
-	char hello[]="hello";
+	char data[1000];
+	char file[]="haha";
 	int i;
-	for(i=0;i<100;i++)
-		data[i]=i+1;
+	for(i=0;i<1000;i++)
+		data[i]=i%26+'a';
 	IPAddr ip=0xc0a832f5;
-	for(i=0;i<20;i++)
-	{
-		//sendData(ip,data,100);
-		sendData(ip,hello,sizeof(hello));
-	}
+	printf("begin send file\n");
+	tftp_put(ip,file,(Octet *)data,1000);
+	//tftp_get(ip,file,callBackFunc);
 	return 0;
 }
 
@@ -34,3 +33,9 @@ void sendData(IPAddr ip,char *data,int len)
 	udp_send(sendBuff,strlen(data));
 	enet_free((Enet *)sendBuff);
 }
+
+void callBackFunc(Octet *buf,Uint32 len)
+{
+	printf("file length is %d conten is %s\n",len,(void *)buf);
+}
+
