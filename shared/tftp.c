@@ -172,17 +172,22 @@ char *tftp_put(IPAddr server,char * file,Octet *data,long size)
 		sendBuf->udp.dest = recvUDPHeader->srce;
 		sendHeader->op = htons(tftpOpData);
 		blockNum=htons(recvHeader->block)+1;
+		sendHeader->block = htons(blockNum);
 		if(blockNum>maxBlockNum)
 		{
 			udp_recvDone(recvBuf);
 			break;
 		}
-		sendHeader->block = htons(blockNum);
 		pos = tftpPosData;
-		dataLen=blockNum==maxBlockNum?size%512:512;
+		if(blockNum<maxBlockNum||((blockNum==maxBlockNum)&&size%512==0))
+			dataLen=512;
+		else
+			dataLen=size%512;
 		appendData(sendBuf,&pos,data+(blockNum-1)*512,dataLen);
 		udp_recvDone(recvBuf);
 	}
+	if(size%512==0)
+		udp_send(sendBuf,tftpPosData);
 	udp_freePort(local);
 	enet_free((Enet *)sendBuf);
 	return NULL;

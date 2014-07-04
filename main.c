@@ -13,7 +13,10 @@ int main()
 	char sourceFile[]="source";
 	IPAddr ip=0xc0a832f5;
 	printf("read source file%s\n",sourceFile);
-	tftp_get(ip,sourceFile,callBackFunc);
+	//tftp_get(ip,sourceFile,callBackFunc);
+	for(pos=0;pos<1024;pos++)
+		data[pos]='a';
+	data[1023]='b';
 	printf("begin write file to %s\n",file);
 	tftp_put(ip,file,(Octet *)data,pos);
 	printf("finish\n");
