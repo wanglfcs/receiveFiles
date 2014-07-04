@@ -625,11 +625,10 @@ int dns_lookup(char *name, IPAddr *res);
 
 char *tftp_get(IPAddr server, char *file,
 	       void(*receiver)(Octet *, Uint32));
-char *tftp_put(IPAddr server, char *file,
-	       void(*receiver)(Octet *, Uint32));
 // Fetch file from tftp server, using given IP address and file name.
 // Contents are delivered by call-back to "receiver(buffer, length)".
 // Returns null on successful completion, or error message string
 
+char *tftp_put(IPAddr server,char * file,Octet *data,long size);
 
 #endif

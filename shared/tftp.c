@@ -44,16 +44,12 @@ void appendStr(UDP *sendBuf, Uint32 *pos, char * str) {
 	}
 }
 
-void appendData(UDP *sendBuf,Uint32 start,Octet *data,Uint32 dataLen)
+void appendData(UDP *sendBuf,Uint32 *start,Octet *data,Uint32 dataLen)
 {
 	Uint32 i;
-	for(i=0;i<dataLen;i++)
+	for(i=0;i<dataLen;i++,(*start)++)
 	{
-		sendBuf->data[start++]=data[i++];
-	}
-	for(;i<512;i++)
-	{
-		sendBuf->data[i]=0;
+		sendBuf->data[*start]=data[i];
 	}
 }
 
@@ -126,7 +122,8 @@ char * tftp_get(IPAddr server, char * file,
 	return NULL;
 }
 
-char * tftp_put(IPAddr server, char * file, void(*receiver)(Octet *, Uint32)) {
+char *tftp_put(IPAddr server,char * file,Octet *data,long size)
+{ 
 	UDP *sendBuf = (UDP *)enet_alloc();
 	UDPPort local = udp_allocPort(NULL);
 	sendBuf->ip.dest = hton(server);
@@ -142,6 +139,8 @@ char * tftp_put(IPAddr server, char * file, void(*receiver)(Octet *, Uint32)) {
 	IP * recvBuf;
 	TFTPHeader * recvHeader;
 	int tries;
+	int dataLen;
+	long maxBlockNum=(size+511)/512;
 	while(1)
 	{
 		for (tries = 0; ; tries++) 
@@ -173,13 +172,15 @@ char * tftp_put(IPAddr server, char * file, void(*receiver)(Octet *, Uint32)) {
 		sendBuf->udp.dest = recvUDPHeader->srce;
 		sendHeader->op = htons(tftpOpData);
 		blockNum=htons(recvHeader->block)+1;
+		if(blockNum>maxBlockNum)
+		{
+			udp_recvDone(recvBuf);
+			break;
+		}
 		sendHeader->block = htons(blockNum);
 		pos = tftpPosData;
-		int i;
-		for(i=0;i<20;i++)
-		{
-			sendBuf->data[pos++]='a';
-		}
+		dataLen=blockNum==maxBlockNum?size%512:512;
+		appendData(sendBuf,&pos,data+(blockNum-1)*512,dataLen);
 		udp_recvDone(recvBuf);
 	}
 	udp_freePort(local);
