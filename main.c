@@ -7,18 +7,17 @@
 
 void sendData(IPAddr ip,char *data,int len);
 void callBackFunc(Octet *buf,Uint32 len);
-
+int pos=0;
+char data[100000];
 int main()
 {
-	char data[1000];
-	char file[]="haha";
-	int i;
-	for(i=0;i<1000;i++)
-		data[i]=i%26+'a';
+	char file[]="dest";
+	char sourceFile[]="source";
 	IPAddr ip=0xc0a832f5;
-	printf("begin send file\n");
-	//tftp_put(ip,file,(Octet *)data,1000);
-	tftp_put(ip,file,(Octet *)data,1000);
+	printf("read source file%s\n",sourceFile);
+	tftp_get(ip,sourceFile,callBackFunc);
+	printf("begin write file to %s\n",file);
+	tftp_put(ip,file,(Octet *)data,pos);
 	printf("finish\n");
 	return 0;
 }
@@ -37,6 +36,8 @@ void sendData(IPAddr ip,char *data,int len)
 
 void callBackFunc(Octet *buf,Uint32 len)
 {
-	printf("file length is %d conten is %s\n",len,(void *)buf);
+	unsigned int i;
+	for(i=0;i<len;i++,pos++)
+		data[pos]=buf[i];
 }
 
