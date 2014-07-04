@@ -142,7 +142,7 @@ char * tftp_put(IPAddr server, char * file, void(*receiver)(Octet *, Uint32)) {
 	IP * recvBuf;
 	TFTPHeader * recvHeader;
 	int tries;
-	for (blockNum = 1; ; blockNum++) 
+	while(1)
 	{
 		for (tries = 0; ; tries++) 
 		{
@@ -172,7 +172,8 @@ char * tftp_put(IPAddr server, char * file, void(*receiver)(Octet *, Uint32)) {
 		UDPHeader *recvUDPHeader = (UDPHeader *)ip_payload(recvBuf);
 		sendBuf->udp.dest = recvUDPHeader->srce;
 		sendHeader->op = htons(tftpOpData);
-		sendHeader->block = htons(htons(recvHeader->block)+1);
+		blockNum=htons(recvHeader->block)+1;
+		sendHeader->block = htons(blockNum);
 		pos = tftpPosData;
 		int i;
 		for(i=0;i<20;i++)
